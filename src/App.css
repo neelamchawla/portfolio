@@ -1,0 +1,93 @@
+:root
+{
+  --yellow: #F5C32C;
+    --orange : #FCA61F;
+    --black : #242D49;
+    --gray : #788097;
+    --blueCard : #DDF8FE;
+    --purple: rgb(238 210 255);
+    --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
+    --orangeCard: rgba(252, 166, 31, 0.45);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.App{
+    padding: 0.5rem 3.5rem;
+    overflow: hidden;
+    color: var(--black);
+}
+
+.button {
+    background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+    box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42);
+    border-radius: 34px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 11px 26px 11px 26px;
+  }
+  
+  .button:hover {
+    background: white;
+    cursor: pointer;
+    border: 1px solid var(--orange);
+    color: var(--orange);
+  }
+  @media screen and (max-width: 480px) {
+    .App {
+      padding: 0.5rem 1rem;
+
+    }
+  }
+
+.wave1 {
+  width: 110%;
+  margin-top: -2%;
+  margin-left: -4%;
+  margin-bottom: -53%;
+}
+
+.wave2 {
+  width: 70rem;
+  margin-top: 14%;
+  margin-left: -7%;
+  margin-bottom: 2%;
+}
+.wave2b {
+  width: 100rem;
+  height: 47vh;
+  margin-top: 6%;
+  margin-left: -30%;
+  /* object-fit: none; */
+  margin-bottom: 0%;
+}
+.wave3 {
+  width: 70rem;
+  margin-left: -7%;
+  margin-bottom: -32%;
+}
+.wave4 {
+  width: 113%;
+  margin-left: -7%;
+  margin-bottom: -18%;
+}
+.wave4b {
+  /* width: 113%;
+  margin-left: -7%;
+  margin-bottom: -36%; */
+  width: 113%;
+  margin-left: -7%;
+  margin-bottom: -38%;
+}
+.wave5 {
+  width: 101.7%;
+  margin-left: -7%;
+  position: absolute;
+  z-index: 1;
+  margin-top: -4%;
+  height: 24vh;
+}
