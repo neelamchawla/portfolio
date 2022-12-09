@@ -1,17 +1,15 @@
-import Navbar from "./components/Navbar/Navbar";
-import Intro from "./components/Intro/Intro";
-import Services from "./components/Services/Services";
+import Navbar from "./components/HomePage/Navbar/Navbar";
+import Intro from "./components/HomePage/Intro/Intro";
+import Services from "./components/HomePage/Services/Services";
 import "./App.css";
-import Experience from "./components/Experience/Experience";
-import Works from "./components/Works/Works";
-import Portfolio from "./components/Portfolio/Portfolio";
-import Testimonial from "./components/Testimonials/Testimonial";
-import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer";
+import Works from "./components/HomePage/Works/Works";
+import Portfolio from "./components/HomePage/Portfolio/Portfolio";
+import Contact from "./components/HomePage/Contact/Contact";
+import Footer from "./components/HomePage/Footer/Footer";
 import { useContext } from "react";
 import { themeContext } from "./Context";
-import Social from "./components/socialMedia/social";
-import Education from "./components/Education/Education";
+import Social from "./components/HomePage/socialMedia/social";
+import Education from "./components/HomePage/Education/Education";
 import Wave1 from "../src/img/wave1.png";
 import Wave2 from "../src/img/wave2.png";
 import Wave2b from "../src/img/wave6.png";
@@ -37,14 +35,12 @@ function App() {
       <Services />
       <img src={Wave2} alt="" className="wave2" style={{ display: darkMode ? "none" : "" }} />
       <img src={Wave2b} alt="" className="wave2b" style={{ display: darkMode ? "" : "none" }} />
-      {/* <Experience /> */}
       <Education />
       <img src={Wave3} alt="" className="wave3"/>
       <Works />
       <img src={Wave2} alt="" className="wave4" style={{ display: darkMode ? "none" : "" }} />
       <img src={Wave4} alt="" className="wave4b" style={{ display: darkMode ? "" : "none" }} />
       <Portfolio />
-      {/* <Testimonial /> */}
       <img src={Wave5} alt="" className="wave5" style={{ display: darkMode ? "none" : "" }} />
       <Contact />
       <Footer />

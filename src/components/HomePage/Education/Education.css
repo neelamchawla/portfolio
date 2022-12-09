@@ -1,0 +1,64 @@
+.education {
+    display: flex;
+    height: 135vh;
+    margin-top: -11rem;
+    padding-top: 5rem;
+  }
+  .my-education {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    display: flex;
+  }
+  .my-education .main{
+    /* width: 50%;
+    margin-right: 5%;
+    display: flex;
+    float: left; */
+    margin-left: 4%;
+    width: 15%;
+  }
+  .my-education .main > span {
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: 32%;
+  }
+  .my-education .main h2{
+    margin: 25px 0 20px 40px;
+  }
+  .my-education .main p{
+    margin: 0 0 10px 40px;
+  }
+  .my-education .main p:last-of-type{
+    margin-top: 25px;
+  }
+  .my-education .exp {
+    /* width: 45%;
+    float: left; */
+    margin-left: -10%;
+    margin-top: 3em;
+    width: 60%;
+  }
+  .my-education .exp h3{
+    margin: 73px 0 10px 0;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .my-education .exp span{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 17px;
+  }
+  .my-education .exp span:last-of-type{
+    /* background-color: #2dcc70; */
+    background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+    display: inline-block;
+    color: #fff;
+    padding: 3px 6px;
+    font-size: 0.9em;
+  }
+  .my-education .exp hr{
+    margin: 30px 0 10px 0px;
+    width: 97%;
+  }
