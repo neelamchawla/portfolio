@@ -45,21 +45,23 @@ const Education = () => {
             </p>
         </div>
         </div>
-        {/* <div className="main">
+        <div className="main">
         <span>
-            Experience
+//             Experience
         </span>
         </div>
         <div className="exp">
         <div className="certificate">
-            <h3 className="he">Front End Developer</h3>
-            <span className="sp">
-            <strong>OpenEyes Technologies Inc.</strong>
-            </span>
-            <span>Dec 2021 - Present</span>
-            <hr className="hr" />
+//             <h3 className="he">Front End Developer</h3>
+//             <span className="sp">
+//             <strong>OpenEyes Technologies Inc.</strong>
+//             </span>
+//             <span>Dec 2021 - Present</span>
+//             <hr className="hr" />
+      <img src="https://png.pngtree.com/png-vector/20200310/ourmid/pngtree-online-education-training-course-design-concept-vector-illustration-png-image_2158408.jpg" alt="edu" style="
+    border-radius: 55% 46% 36% 46%; margin-left: 15%;">
         </div>
-        <div className="certificate">
+       {/*  <div className="certificate">
             <h3 className="he">Web Developer</h3>
             <span className="sp">
             <strong>Future Link Consultants</strong>
