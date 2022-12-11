@@ -45,7 +45,7 @@ const Education = () => {
             </p>
         </div>
         </div>
-        <div className="main">
+        {/* <div className="main">
         <span>
             Experience
         </span>
@@ -82,7 +82,7 @@ const Education = () => {
             </span>
             <span>Jun 2018 - Feb 2019</span>
         </div>
-        </div>
+        </div> */}
 
         </div>
     </div>

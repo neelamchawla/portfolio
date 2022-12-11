@@ -1,5 +1,5 @@
 import Navbar from "./components/HomePage/Navbar/Navbar";
-import Intro from "./components/HomePage/Intro/Intro";
+import Home from "./components/HomePage/Home/Home";
 import Services from "./components/HomePage/Services/Services";
 import "./App.css";
 import Works from "./components/HomePage/Works/Works";
@@ -10,6 +10,7 @@ import { useContext } from "react";
 import { themeContext } from "./Context";
 import Social from "./components/HomePage/socialMedia/social";
 import Education from "./components/HomePage/Education/Education";
+import Experience from "./components/HomePage/Experience/Experience";
 import Wave1 from "../src/img/wave1.png";
 import Wave2 from "../src/img/wave2.png";
 import Wave2b from "../src/img/wave6.png";
@@ -31,11 +32,12 @@ function App() {
       <img src={Wave1} alt="" className="wave1" style={{ display: darkMode ? "" : "none" }} />
       <Navbar />
       <Social />
-      <Intro />
+      <Home />
       <Services />
       <img src={Wave2} alt="" className="wave2" style={{ display: darkMode ? "none" : "" }} />
       <img src={Wave2b} alt="" className="wave2b" style={{ display: darkMode ? "" : "none" }} />
       <Education />
+      <Experience />
       <img src={Wave3} alt="" className="wave3"/>
       <Works />
       <img src={Wave2} alt="" className="wave4" style={{ display: darkMode ? "none" : "" }} />

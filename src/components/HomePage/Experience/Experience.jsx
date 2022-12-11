@@ -1,6 +1,8 @@
 import React, { useContext } from "react";
 import { themeContext } from "../../../Context";
 import "./Experience.css";
+import TabCarousel from "./TabCarousel";
+
 const Experience = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -13,8 +15,8 @@ const Experience = () => {
       position: darkMode && "absolute",
       opacity: darkMode && "0.3"
     }}></div>
-      <div className="achievement">
-        {/* darkMode */}
+    <TabCarousel />
+      {/* <div className="achievement">
         <div className="circle" style={{color: darkMode?'var(--orange)':'',
         background: darkMode ? "linear-gradient(#fff, #fff) padding-box, linear-gradient(45deg, slateblue, coral) border-box" : "",
         border: darkMode ? "8px solid transparent" : ""
@@ -37,7 +39,7 @@ const Experience = () => {
       }}>5+</div>
         <span  style={{color: darkMode?'white':''}}>companies </span>
         <span>Work</span>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from "react";
-import "./Intro.css";
+import "./Home.css";
 import Vector1 from "../../../img/Vector1.png";
 import Vector2 from "../../../img/Vector2.png";
 import girl from "../../../img/girl5.png";
@@ -15,7 +15,7 @@ import { themeContext } from "../../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 
-const Intro = () => {
+const Home = () => {
   // Transition
   const transition = { duration: 2, type: "spring" };
 
@@ -73,7 +73,7 @@ const Intro = () => {
   };
 
   return (
-    <div style={{ backgroundImage: darkMode ? containerStyle : "" }} className="Intro" id="Intro">
+    <div style={{ backgroundImage: darkMode ? containerStyle : "" }} className="Home" id="Home">
       {/* left name side */}
       <div className="i-left">
         <div className="i-name">
@@ -164,4 +164,4 @@ const Intro = () => {
   );
 };
 
-export default Intro;
+export default Home;

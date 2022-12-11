@@ -1,4 +1,4 @@
-.Intro {
+.Home {
   display: flex;
   height: 65vh;
   margin-top: 0rem;
@@ -112,7 +112,7 @@
 }
 
 @media screen and (max-width: 480px) {
-  .Intro {
+  .Home {
     flex-direction: column;
     gap: 7rem;
     height: 64rem;

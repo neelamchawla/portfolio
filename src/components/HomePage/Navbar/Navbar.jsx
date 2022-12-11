@@ -37,7 +37,7 @@ const Navbar = () => {
       <div className="n-right n-list">
       <ul className={active} style={{ listStyleType: "none" }}>
       <li className="nav__item">
-              <Link style={{color: darkMode? '' : 'var(--black)' }} className="nav__link" activeClass="active" to="Intro" spy={true} smooth={true}>
+              <Link style={{color: darkMode? '' : 'var(--black)' }} className="nav__link" activeClass="active" to="Home" spy={true} smooth={true}>
                 Home
               </Link>
             </li>
@@ -49,6 +49,11 @@ const Navbar = () => {
             <li className="nav__item">
               <Link style={{color: darkMode? '' : 'var(--black)' }} className="nav__link" to="education" spy={true} smooth={true}>
                 Education
+              </Link>
+            </li>
+            <li className="nav__item">
+              <Link style={{color: darkMode? '' : 'var(--black)' }} className="nav__link" to="experience" spy={true} smooth={true}>
+                Experience
               </Link>
             </li>
             <li className="nav__item">
