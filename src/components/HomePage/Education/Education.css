@@ -62,3 +62,7 @@
     margin: 30px 0 10px 0px;
     width: 97%;
   }
+.eduImg {
+    border-radius: 55% 46% 36% 46%;
+    margin-left: 15%
+}
