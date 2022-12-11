@@ -47,17 +47,17 @@ const Education = () => {
         </div>
         <div className="main">
         <span>
-//             Experience
+           {/* Experience */}
         </span>
         </div>
         <div className="exp">
         <div className="certificate">
-//             <h3 className="he">Front End Developer</h3>
-//             <span className="sp">
-//             <strong>OpenEyes Technologies Inc.</strong>
-//             </span>
-//             <span>Dec 2021 - Present</span>
-//             <hr className="hr" />
+          {/*  <h3 className="he">Front End Developer</h3>
+            <span className="sp">
+            <strong>OpenEyes Technologies Inc.</strong>
+            </span>
+            <span>Dec 2021 - Present</span>
+            <hr className="hr" /> */}
                <img className="eduImg" 
                 src="https://png.pngtree.com/png-vector/20200310/ourmid/pngtree-online-education-training-course-design-concept-vector-illustration-png-image_2158408.jpg" alt="edu" />
         </div>
