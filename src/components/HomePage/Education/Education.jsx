@@ -58,7 +58,7 @@ const Education = () => {
 //             </span>
 //             <span>Dec 2021 - Present</span>
 //             <hr className="hr" />
-      <img className="eduImg" src="https://png.pngtree.com/png-vector/20200310/ourmid/pngtree-online-education-training-course-design-concept-vector-illustration-png-image_2158408.jpg" alt="edu" >
+      <img className="eduImg" src="https://png.pngtree.com/png-vector/20200310/ourmid/pngtree-online-education-training-course-design-concept-vector-illustration-png-image_2158408.jpg" alt="edu" />
         </div>
        {/*  <div className="certificate">
             <h3 className="he">Web Developer</h3>
