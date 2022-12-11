@@ -5,7 +5,7 @@ import {TiChevronLeftOutline, TiChevronRightOutline} from 'react-icons/ti';
 // import { IconName } from "react-icons/ti";
 import "./TabCarousel.css";
 
-const CARDS = 5;
+const CARDS = 4;
 const MAX_VISIBILITY = 2;
 
 const Card = ({title, content, years, desc}) => (
@@ -46,11 +46,11 @@ const TabCarousel = () => (
   <div className='app'>
     <Carousel>
       {/* {[...new Array(CARDS)].map((_, i) => ( */}
-        <Card title='Web Developer' content='OpenEyes Technologies Inc.' years='Dec 2021 - Present' desc='I was having a responsibility of handling end-to-end website development. Assisted two teams of five employees each. Worked on WordPress websites. Assisted in maintaining program code to meet system requirements. Worked on Jenkins for Web hosting, user access, website backup, and updating.' />
-        <Card title='Web Developer' content='OpenEyes Technologies Inc.' years='Dec 2021 - Present' />
-        <Card title='Web Developer' content='OpenEyes Technologies Inc.' years='Dec 2021 - Present' />
-        <Card title='Web Developer' content='OpenEyes Technologies Inc.' years='Dec 2021 - Present' />
-      {/* ))} */}
+        <Card title='Software Developer' content='OpenEyes Technologies Inc.' years='Dec 2021 - Present' desc="Working on project based on React Js and Angular with Kendo-UI for Front-end and for back-end PHP - Laravel. Also worked on chrome extension for one of the project. Third party API's integration Firebase, Stripe for the project. Github repository for code storage. I have also handled end-to-end website development om Jenkins." />
+        <Card title='Web Developer' content='Future Link Consultants' years='Sep 2020 - Nov 2021' desc="Projects based on ReactJs, Shopify, Wordpress. SASS, Material UI, Tail wind CSS, Bootstrap, Firebase, Stripe, Github are some of the functions used in the projects. Also, handled WordPress websites in total of 5 websites." />
+        <Card title='React Developer' content='CodeZeros' years='Jan 2020 - Aug 2020' desc="Projects based on ReactJs. Redux, Saga, SASS, Material UI, Bootstrap, Firebase, Stripe, Github are some of the functions used in the projects." />
+        <Card title='PHP Developer' content='Padmavati Online Services' years='Jun 2018 - Feb 2019' desc="Projects based on PHP - Laravel." />
+     {/* ))} */}
     </Carousel>
   </div>
 );
