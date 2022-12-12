@@ -64,7 +64,7 @@ const Portfolio = () => {
       <h4 style={{color: darkMode?'white': ''}}>Recent Projects</h4>
       
       <>
-      <img src={ReactLogo} className="rotate"/>
+      <img src={ReactLogo} className="rotate" alt="reactlogo"/>
       <span style={{ color: "#61DBFB"}}>React</span>
         {/* slider */}
         <Swiper
@@ -74,22 +74,22 @@ const Portfolio = () => {
           className="portfolio-slider"
         >
          <SwiperSlide>
-            <img src={React1} alt="" />
+            <img src={React1} alt="React" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={React2} alt="" />
+            <img src={React2} alt="React" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={React3} alt="" />
+            <img src={React3} alt="React" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={React4} alt="" />
+            <img src={React4} alt="React" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={React5} alt="" />
+            <img src={React5} alt="React" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={React6} alt="" />
+            <img src={React6} alt="React" />
           </SwiperSlide>
         </Swiper>
       </>
@@ -104,10 +104,10 @@ const Portfolio = () => {
           className="portfolio-slider"
         >
           <SwiperSlide>
-            <img src={Angular1} alt="" />
+            <img src={Angular1} alt="angular" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Angular2} alt="" />
+            <img src={Angular2} alt="angular" />
           </SwiperSlide>
         </Swiper>
       </>
@@ -122,10 +122,10 @@ const Portfolio = () => {
           className="portfolio-slider"
         >
           <SwiperSlide>
-            <img src={Vue1} alt="" />
+            <img src={Vue1} alt="vue" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Vue2} alt="" />
+            <img src={Vue2} alt="vue" />
           </SwiperSlide>
         </Swiper>
       </>
@@ -140,43 +140,43 @@ const Portfolio = () => {
           className="portfolio-slider"
         >
           <SwiperSlide>
-            <img src={Prototype1} alt="" />
+            <img src={Prototype1} alt="proto" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Prototype2} alt="" />
+            <img src={Prototype2} alt="proto" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Prototype3} alt="" />
+            <img src={Prototype3} alt="proto" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Prototype4} alt="" />
+            <img src={Prototype4} alt="proto" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Prototype5} alt="" />
+            <img src={Prototype5} alt="proto" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Prototype6} alt="" />
+            <img src={Prototype6} alt="proto" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Prototype7} alt="" />
+            <img src={Prototype7} alt="proto" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Prototype8} alt="" />
+            <img src={Prototype8} alt="proto" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Prototype9} alt="" />
+            <img src={Prototype9} alt="proto" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Prototype10} alt="" />
+            <img src={Prototype10} alt="proto" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Prototype11} alt="" />
+            <img src={Prototype11} alt="proto" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Prototype12} alt="" />
+            <img src={Prototype12} alt="proto" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Prototype13} alt="" />
+            <img src={Prototype13} alt="proto" />
           </SwiperSlide>
         </Swiper>
       </>
@@ -191,58 +191,58 @@ const Portfolio = () => {
           className="portfolio-slider"
         >
           <SwiperSlide>
-            <img src={Ps1} alt="" />
+            <img src={Ps1} alt="ps" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Ps2} alt="" />
+            <img src={Ps2} alt="ps" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Ps3} alt="" />
+            <img src={Ps3} alt="ps" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Ps4} alt="" />
+            <img src={Ps4} alt="ps" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Ps5} alt="" />
+            <img src={Ps5} alt="ps" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Ps6} alt="" />
+            <img src={Ps6} alt="ps" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Ps7} alt="" />
+            <img src={Ps7} alt="ps" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Ps8} alt="" />
+            <img src={Ps8} alt="ps" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Ps9} alt="" />
+            <img src={Ps9} alt="ps" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Ps10} alt="" />
+            <img src={Ps10} alt="ps" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Ps11} alt="" />
+            <img src={Ps11} alt="ps" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Ps12} alt="" />
+            <img src={Ps12} alt="ps" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Ps13} alt="" />
+            <img src={Ps13} alt="ps" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Ps14} alt="" />
+            <img src={Ps14} alt="ps" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Ps15} alt="" />
+            <img src={Ps15} alt="ps" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Ps16} alt="" />
+            <img src={Ps16} alt="ps" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Ps17} alt="" />
+            <img src={Ps17} alt="ps" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={Ps18} alt="" />
+            <img src={Ps18} alt="ps" />
           </SwiperSlide>
          </Swiper>
       </>

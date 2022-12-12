@@ -24,7 +24,7 @@ const Footer = () => {
 
   return (
     <div className="footer">
-      <img src={Wave} alt="" style={{ width: "100%" }} />
+      <img src={Wave} alt="bg" style={{ width: "100%" }} />
       <div className="f-content">
         <span>
           <a href="mailto:neelam.projects@gmail.com">
@@ -36,7 +36,7 @@ const Footer = () => {
             <Facebook className="fb" color="white" size={"3rem"} />
             <Gitub className="git" color="white" size={"3rem"} />
         </div>
-      <img title="VCard" src={QRCode} className="QRCode" style={{width: "7%"}} />
+      <img title="VCard" src={QRCode} className="QRCode" style={{width: "7%"}} alt="qrcode" />
       </div>
 
       <div className="scroll-top">

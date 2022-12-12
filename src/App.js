@@ -29,21 +29,21 @@ function App() {
         color: darkMode ? "white" : "",
       }}
     >
-      <img src={Wave1} alt="" className="wave1" style={{ display: darkMode ? "" : "none" }} />
+      <img src={Wave1} alt="wave" className="wave1" style={{ display: darkMode ? "" : "none" }} />
       <Navbar />
       <Social />
       <Home />
       <Services />
-      <img src={Wave2} alt="" className="wave2" style={{ display: darkMode ? "none" : "" }} />
-      <img src={Wave2b} alt="" className="wave2b" style={{ display: darkMode ? "" : "none" }} />
+      <img src={Wave2} alt="wave" className="wave2" style={{ display: darkMode ? "none" : "" }} />
+      <img src={Wave2b} alt="wave" className="wave2b" style={{ display: darkMode ? "" : "none" }} />
       <Education />
       <Experience />
-      <img src={Wave3} alt="" className="wave3"/>
+      <img src={Wave3} alt="wave" className="wave3"/>
       <Works />
-      <img src={Wave2} alt="" className="wave4" style={{ display: darkMode ? "none" : "" }} />
-      <img src={Wave4} alt="" className="wave4b" style={{ display: darkMode ? "" : "none" }} />
+      <img src={Wave2} alt="wave" className="wave4" style={{ display: darkMode ? "none" : "" }} />
+      <img src={Wave4} alt="wave" className="wave4b" style={{ display: darkMode ? "" : "none" }} />
       <Portfolio />
-      <img src={Wave5} alt="" className="wave5" style={{ display: darkMode ? "none" : "" }} />
+      <img src={Wave5} alt="wave" className="wave5" style={{ display: darkMode ? "none" : "" }} />
       <Contact />
       <Footer />
     </div>

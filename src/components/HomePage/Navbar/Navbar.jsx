@@ -30,7 +30,7 @@ const Navbar = () => {
             {/* left */}
       <div className="n-left">
         <div className="n-logo">
-          <img src={logo} alt="" />
+          <img src={logo} alt="logo" />
         </div>
         <Toggle />
       </div>

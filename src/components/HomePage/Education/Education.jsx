@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { themeContext } from "../../../Context";
+import edu from "../../../img/coding-freak.gif";
 import "./Education.css";
 
 const Education = () => {
@@ -15,7 +16,6 @@ const Education = () => {
             Education
         </span>
         </div>
-
         <div className="exp">
         <div className="certificate">
             <h3 className="he">Post Graduate Diploma in Network Administration</h3>
@@ -45,6 +45,7 @@ const Education = () => {
             </p>
         </div>
         </div>
+        
         <div className="main">
         <span>
            {/* Experience */}
@@ -52,17 +53,23 @@ const Education = () => {
         </div>
         <div className="exp">
         <div className="certificate">
-          {/*  <h3 className="he">Front End Developer</h3>
+        <img className="eduImg" 
+                src={edu} alt="edu" />
+                {/* https://png.pngtree.com/png-vector/20200310/ourmid/pngtree-online-education-training-course-design-concept-vector-illustration-png-image_2158408.jpg */}
+                {/* <div style={{ width:"100%", height:"0", paddingBottom:"100%", position:"relative" }}><iframe src="https://giphy.com/embed/YnS7j9pwnECXLMrI4t" width="100%" height="100%" style={{ position: "absolute"}} class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/platzi-it-code-developer-YnS7j9pwnECXLMrI4t">via GIPHY</a></p> */}
+            </div>
+      </div>
+    {/* <div className="exp">
+        <div className="certificate">
+           <h3 className="he">Front End Developer</h3>
             <span className="sp">
             <strong>OpenEyes Technologies Inc.</strong>
             </span>
             <span>Dec 2021 - Present</span>
-            <hr className="hr" /> */}
-               <img className="eduImg" 
-                src="https://png.pngtree.com/png-vector/20200310/ourmid/pngtree-online-education-training-course-design-concept-vector-illustration-png-image_2158408.jpg" alt="edu" />
+            <hr className="hr" /> 
         </div>
-      </div>
-       {/*  <div className="certificate">
+        </div>
+        <div className="certificate">
             <h3 className="he">Web Developer</h3>
             <span className="sp">
             <strong>Future Link Consultants</strong>
@@ -86,7 +93,6 @@ const Education = () => {
             <span>Jun 2018 - Feb 2019</span>
         </div>
         </div> */}
-
         </div>
     </div>
   )

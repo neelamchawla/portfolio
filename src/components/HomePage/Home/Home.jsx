@@ -7,7 +7,7 @@ import girl from "../../../img/girl5.png";
 import Tech from "../../../img/tech.png";
 import thumbup from "../../../img/thumbup.png";
 import crown from "../../../img/crown.png";
-import FloatinDiv from "../FloatingDiv/FloatingDiv";
+import FloatinDiv from "./FloatingDiv/FloatingDiv";
 import Github from "../../../img/github.png";
 import LinkedIn from "../../../img/linkedin.png";
 // import Instagram from "../../../img/instagram.png";
@@ -94,25 +94,25 @@ const Home = () => {
         {/* social icons */}
         <div className="i-icons">
           <a href="https://github.com/neelamchawla">
-            <img src={Github} alt="" />
+            <img src={Github} alt="git" />
           </a>
           <a href="https://www.linkedin.com/in/neelam-r/">
-            <img src={LinkedIn} alt="" />
+            <img src={LinkedIn} alt="linkedin" />
           </a>
         </div>
       </div>
       {/* right image side */}
       <div className="i-right">
-        <img src={Vector1} alt="" />
-        <img src={Vector2} alt="" />
-        <img src={girl} alt="" />
+        <img src={Vector1} alt="vec1" />
+        <img src={Vector2} alt="vec2" />
+        <img src={girl} alt="girl" />
         {/* animation */}
         <motion.img
           initial={{ left: "-39%" }}
           whileInView={{ left: "-24%" }}
           transition={transition}
           // src={thumbup}
-          alt=""
+          alt="transition"
         />
         {/* <motion.div
           initial={{ top: "-9%", left: "-15%" }}

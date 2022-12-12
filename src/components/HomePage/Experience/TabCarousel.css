@@ -39,7 +39,7 @@
     opacity: var(--active);
 }
 .navTab {
-    color: white;
+    color: gold;
     font-size: 5rem;
     position: absolute;
     display: flex;
