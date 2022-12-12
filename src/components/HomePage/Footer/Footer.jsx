@@ -5,7 +5,7 @@ import Insta from "@iconscout/react-unicons/icons/uil-instagram";
 import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
 import Gitub from "@iconscout/react-unicons/icons/uil-github";
 import { themeContext } from "../../../Context";
-import {MenuButton, Menu, toRadians} from "../Menu/Menu";
+import {MenuButton, Menu, toRadians} from "./Menu/Menu";
 import QRCode from "../../../img/QRcode.png";
 
 const Footer = () => {
