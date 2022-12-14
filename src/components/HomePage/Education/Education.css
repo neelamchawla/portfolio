@@ -1,8 +1,10 @@
 .education {
     display: flex;
-    height: 95vh;
-    margin-top: -11rem;
-    padding-top: 5rem;
+    /* height: 95vh;
+    margin-top: -11rem; */
+    height: 120vh;
+    margin-top: -13rem;
+    padding-top: 6rem;
   }
   .my-education {
     padding-top: 30px;
@@ -68,4 +70,12 @@
     max-width: 80%;
     margin-top: 4em;
     box-shadow: 0px 0px 20px gold;
+}
+.sectionEdu {
+  margin-top: 2rem;
+  width: 70vw;
+}
+.sectionEdu > h6 {
+  margin-left: 24rem;
+
 }

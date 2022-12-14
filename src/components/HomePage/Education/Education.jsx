@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { themeContext } from "../../../Context";
 import edu from "../../../img/coding-freak.gif";
+import Edu from "./Edu";
 import "./Education.css";
 
 const Education = () => {
@@ -10,13 +11,14 @@ const Education = () => {
 
   return (
     <div id="education" className="education">
-        <div id="education" className="my-education">
+        {/* <div id="education" className="my-education"> */}
         <div className="main">
         <span>
             Education
         </span>
         </div>
-        <div className="exp">
+            <Edu />
+        {/* <div className="exp">
         <div className="certificate">
             <h3 className="he">Post Graduate Diploma in Network Administration</h3>
             <span className="sp">
@@ -44,21 +46,21 @@ const Education = () => {
             <p className="paragrph">
             </p>
         </div>
-        </div>
+        </div> */}
         
-        <div className="main">
+        {/* <div className="main">
         <span>
-           {/* Experience */}
+           Experience
         </span>
-        </div>
-        <div className="exp">
+        </div> */}
+        {/* <div className="exp">
         <div className="certificate">
         <img className="eduImg" 
-                src={edu} alt="edu" />
+                src={edu} alt="edu" /> */}
                 {/* https://png.pngtree.com/png-vector/20200310/ourmid/pngtree-online-education-training-course-design-concept-vector-illustration-png-image_2158408.jpg */}
                 {/* <div style={{ width:"100%", height:"0", paddingBottom:"100%", position:"relative" }}><iframe src="https://giphy.com/embed/YnS7j9pwnECXLMrI4t" width="100%" height="100%" style={{ position: "absolute"}} class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/platzi-it-code-developer-YnS7j9pwnECXLMrI4t">via GIPHY</a></p> */}
-            </div>
-      </div>
+            {/* </div>
+      </div> */}
     {/* <div className="exp">
         <div className="certificate">
            <h3 className="he">Front End Developer</h3>
@@ -93,7 +95,7 @@ const Education = () => {
             <span>Jun 2018 - Feb 2019</span>
         </div>
         </div> */}
-        </div>
+        {/* </div> */}
     </div>
   )
 }

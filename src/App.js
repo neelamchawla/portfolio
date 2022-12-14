@@ -2,8 +2,8 @@ import Navbar from "./components/HomePage/Navbar/Navbar";
 import Home from "./components/HomePage/Home/Home";
 import Services from "./components/HomePage/Services/Services";
 import "./App.css";
-import Works from "./components/HomePage/Works/Works";
-import Portfolio from "./components/HomePage/Portfolio/Portfolio";
+import TechSkills from "./components/HomePage/TechSkills/TechSkills";
+import Projects from "./components/HomePage/Projects/Projects";
 import Contact from "./components/HomePage/Contact/Contact";
 import Footer from "./components/HomePage/Footer/Footer";
 import { useContext } from "react";
@@ -39,10 +39,10 @@ function App() {
       <Education />
       <Experience />
       <img src={Wave3} alt="wave" className="wave3"/>
-      <Works />
+      <TechSkills />
       <img src={Wave2} alt="wave" className="wave4" style={{ display: darkMode ? "none" : "" }} />
       <img src={Wave4} alt="wave" className="wave4b" style={{ display: darkMode ? "" : "none" }} />
-      <Portfolio />
+      <Projects />
       <img src={Wave5} alt="wave" className="wave5" style={{ display: darkMode ? "none" : "" }} />
       <Contact />
       <Footer />

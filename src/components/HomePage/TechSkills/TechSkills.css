@@ -236,6 +236,8 @@
   }
 
   .rotate{
-    animation: rotation infinite 3s linear;
+    animation: rotation infinite 5s linear;
     filter: none !important;
+    width: 80px !important;
+    height: 80px !important;
   }

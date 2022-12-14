@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import "./Works.css";
+import "./TechSkills.css";
 import ReactLogo from "../../../img/react-logo.png";
 import AngularLogo from "../../../img/angular.png";
 import VueLogo from "../../../img/vue.png";
@@ -9,7 +9,7 @@ import { themeContext } from "../../../Context";
 import { motion } from "framer-motion";
 import {Link} from 'react-scroll';
 
-const Works = () => {
+const TechSkills = () => {
   // context
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -49,7 +49,7 @@ const Works = () => {
               <button className="button s-button" style={{marginTop: "3rem", width: "auto"}}>JSX / JS / TS</button>
             </Link>
             <Link to="portfolio" smooth={true} spy={true}>
-              <button className="button s-button" style={{marginTop: "3rem", width: "auto"}}>MySql / MongoDB</button>
+              <button className="button s-button" style={{marginTop: "3rem", width: "auto"}}>MySql / MongoDB / Firebase</button>
             </Link>
             <Link to="portfolio" smooth={true} spy={true}>
               <button className="button s-button" style={{marginTop: "3rem", width: "auto"}}>JavaScript / HTML / PHP - Laravel</button>
@@ -62,6 +62,9 @@ const Works = () => {
             </Link>
             <Link to="portfolio" smooth={true} spy={true}>
               <button className="button s-button" style={{marginTop: "3rem", width: "auto"}}>Firebase / Github / Netlify / Heroku</button>
+            </Link>
+            <Link to="portfolio" smooth={true} spy={true}>
+              <button className="button s-button" style={{marginTop: "3rem", width: "auto"}}>Asana / Trello / Jira / ZOHO / Slack</button>
             </Link>
 
             </p>
@@ -159,4 +162,4 @@ const Works = () => {
   );
 };
 
-export default Works;
+export default TechSkills;

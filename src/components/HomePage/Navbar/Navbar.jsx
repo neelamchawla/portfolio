@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import Toggle from "../Toggle/Toggle";
+import Toggle from "./Menu/Toggle/Toggle";
 import "./Navbar.css";
 import { Link } from "react-scroll";
 import { themeContext } from "../../../Context";
@@ -63,14 +63,14 @@ const Navbar = () => {
             </li>
             <li className="nav__item">
               <Link style={{color: darkMode? '' : 'var(--black)' }} className="nav__link" to="portfolio" spy={true} smooth={true}>
-                Portfolio
-              </Link>
-            </li>
-            <li className="nav__item">
-              <Link style={{color: darkMode? '' : 'var(--black)' }} className="nav__link" to="/Projects">
                 Projects
               </Link>
             </li>
+            {/* <li className="nav__item">
+              <Link style={{color: darkMode? '' : 'var(--black)' }} className="nav__link" to="/Projects">
+                Projects
+              </Link>
+            </li> */}
             <li>
               <Link style={{color: darkMode? '' : 'var(--black)' }} className="nav__link" to="contact" spy={true} smooth={true}>
                 <button className="button n-button contactBtn">Contact</button>

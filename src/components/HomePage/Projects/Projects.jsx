@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import "./Portfolio.css";
+import "./Projects.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
 import React1 from "../../../img/react/1.png";
@@ -55,7 +55,7 @@ import MockupLogo from "../../../img/mockup.gif";
 
 import { themeContext } from "../../../Context";
 
-const Portfolio = () => {
+const Projects = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
@@ -64,7 +64,7 @@ const Portfolio = () => {
       <h4 style={{color: darkMode?'white': ''}}>Recent Projects</h4>
       
       <>
-      <img src={ReactLogo} className="rotate" alt="reactlogo"/>
+      <img src={ReactLogo} className="rotates" alt="reactlogo"/>
       <span style={{ color: "#61DBFB"}}>React</span>
         {/* slider */}
         <Swiper
@@ -250,4 +250,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Projects;

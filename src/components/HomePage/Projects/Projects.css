@@ -4,7 +4,7 @@
   justify-content: center;
   flex-direction: column;
   height: 320vh;
-  padding-top: 9rem;
+  padding-top: 2rem;
 }
 
 /* heading */
@@ -52,10 +52,10 @@
   height: 70%;
 }
 
-.rotate{
-  width: 75px !important;
-  height: 75px !important;
-  animation: rotation infinite 6s linear;
+.rotates{
+  width: 65px !important;
+  height: 65px !important;
+  /* animation: rotation infinite 6s linear; */
   filter: none !important;
 }
 

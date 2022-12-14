@@ -111,7 +111,7 @@ const Home = () => {
           initial={{ left: "-39%" }}
           whileInView={{ left: "-24%" }}
           transition={transition}
-          // src={thumbup}
+          src={crown}
           alt="transition"
         />
         {/* <motion.div
