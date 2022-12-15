@@ -8,6 +8,7 @@ import Wordpress from "../../../img/Wordpress.png";
 import { themeContext } from "../../../Context";
 import { motion } from "framer-motion";
 import {Link} from 'react-scroll';
+import TabCarousel from "./TabCarousel";
 
 const TechSkills = () => {
   // context
@@ -30,6 +31,8 @@ const TechSkills = () => {
               <button className="button s-button extra" style={{marginTop: "-3rem"}}>Contact</button>
             </Link>
           </div>
+
+          <TabCarousel darkMode={darkMode} />
             {/* <p>
             React.Js / Angular / Vue.Js /
             JSX / JS / TS /
@@ -41,7 +44,10 @@ const TechSkills = () => {
             Firebase / Github / Netlify / Heroku /
             Wordpress / Shopify
             </p> */}
-            <p>
+
+
+            {/* buttons */}
+            {/* <p>
             <Link to="portfolio" smooth={true} spy={true}>
               <button className="button s-button" style={{marginTop: "3rem", width: "auto"}}>React.Js / Angular / Vue.Js</button>
             </Link>
@@ -67,7 +73,11 @@ const TechSkills = () => {
               <button className="button s-button" style={{marginTop: "3rem", width: "auto"}}>Asana / Trello / Jira / ZOHO / Slack</button>
             </Link>
 
-            </p>
+            </p> */}
+
+            {/* buttons end */}
+
+
           {/* </div> */}
           {/* <span>
             For Front-end Based on React, Angular, VueJS
