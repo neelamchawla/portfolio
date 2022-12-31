@@ -29,7 +29,7 @@ const Home = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web Development", "UI / UX Design",  "Web Design", "Graphic Design" ];
+  const toRotate = [ "Software Development", "Web Development", "UI / UX Design",  "Web Design", "Graphic Design" ];
   const period = 700;
 
   useEffect(() => {
@@ -83,6 +83,7 @@ const Home = () => {
             {/* Fullstack Web Developer with high level of experience  */}
             {/* on React, Angular, Vue <br/> */}
             {/* I have good knowledge of Figma, Webflow, AxureRP, Adobe: Xd, Ps, Ai, Id */}
+            Experienced in:
           </span>
           {/* <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'> */}
             <span className="wrap">{text}</span>

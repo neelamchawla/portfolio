@@ -68,7 +68,7 @@ const Contact = () => {
           width: "100%",
           position:"absolute",
           opacity: "0.3",
-          marginLeft: "-10%",
+          marginLeft: "-9%",
           marginTop: "-3%",
         }}></div>
 
