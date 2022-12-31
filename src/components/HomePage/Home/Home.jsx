@@ -8,12 +8,12 @@ import Tech from "../../../img/tech.png";
 import thumbup from "../../../img/thumbup.png";
 import crown from "../../../img/crown.png";
 import FloatinDiv from "./FloatingDiv/FloatingDiv";
-import Github from "../../../img/github.png";
-import LinkedIn from "../../../img/linkedin.png";
-// import Instagram from "../../../img/instagram.png";
+import Github from "../../../img/logo/github.png";
+import LinkedIn from "../../../img/logo/linkedin.png";
+// import Instagram from "../../../img/logo/instagram.png";
 import { themeContext } from "../../../Context";
 import { motion } from "framer-motion";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 
 const Home = () => {
   // Transition
@@ -77,12 +77,12 @@ const Home = () => {
       {/* left name side */}
       <div className="i-left">
         <div className="i-name">
-          <span style={{ color: darkMode ? "white" : "" }}>Hey! I Am</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Hey! I'm</span>
           <span>Neelam Chawla</span>
           <span>
-            Fullstack Web Developer with high level of experience 
-            on React, Angular, Vue <br/>
-            Also, have good knowledge of Figma, Webflow, AxureRP, Adobe: Xd, Ps, Ai, Id
+            {/* Fullstack Web Developer with high level of experience  */}
+            {/* on React, Angular, Vue <br/> */}
+            {/* I have good knowledge of Figma, Webflow, AxureRP, Adobe: Xd, Ps, Ai, Id */}
           </span>
           {/* <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'> */}
             <span className="wrap">{text}</span>

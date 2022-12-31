@@ -28,9 +28,10 @@
 }
 .awesome > :nth-child(3) {
   color: var(--gray);
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 1rem;
   max-width: 29rem;
+  text-align: justify;
   justify-content: space-evenly;
   line-height: 1.5;
 }

@@ -1,12 +1,12 @@
 import React, { useState, useEffect, useContext } from "react";
 import "./Footer.css";
 // import "./Waves.css";
-import Wave from "../../../img/wave.png";
+import Wave from "../../../img/wave/wave.png";
 import Insta from "@iconscout/react-unicons/icons/uil-instagram";
 import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
 import Gitub from "@iconscout/react-unicons/icons/uil-github";
 import { themeContext } from "../../../Context";
-import {MenuButton, Menu, toRadians} from "../Navbar/Menu/Menu";
+// import {MenuButton, Menu, toRadians} from "../Navbar/Menu/Menu";
 import QRCode from "../../../img/QRcode.png";
 
 const Footer = () => {

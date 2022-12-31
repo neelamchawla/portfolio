@@ -8,15 +8,15 @@ import React3 from "../../../img/react/3.png";
 import React4 from "../../../img/react/4.png";
 import React5 from "../../../img/react/5.png";
 import React6 from "../../../img/react/6.png";
-import ReactLogo from "../../../img/react-logo.png";
+import ReactLogo from "../../../img/logo/react-logo.png";
 
 import Angular1 from "../../../img/angular/1.png";
 import Angular2 from "../../../img/angular/2.png";
-import AngularLogo from "../../../img/angular.png";
+import AngularLogo from "../../../img/logo/angular.png";
 
 import Vue1 from "../../../img/vue/1.png";
 import Vue2 from "../../../img/vue/2.png";
-import VueLogo from "../../../img/vue.png";
+import VueLogo from "../../../img/logo/vue.png";
 
 import Prototype1 from "../../../img/prototype/1.png";
 import Prototype2 from "../../../img/prototype/2.png";

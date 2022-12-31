@@ -36,7 +36,7 @@ const Services = () => {
         <span>Services</span>
         <span>
         {/* I am passionate about crafting elegant and intuitive solutions to complex problems through the use of design, code, and technology for an experience that's both functional and beautiful. I have more than several years of industry experience with my primary area of focus being User Experience Design & Development (UX/UI) in Web-based applications using AngularJS, ReactJS, VueJS, and various other web frameworks. Additionally, I also take great interest in developing software and products in order to simplify the end-user experience, while enhancing their productivity and efficiency */}
-        Seasoned and independent Front End Developer with 3 years of experience in blending the art of design with skill of programming to deliver an immersive and engaging user experience through efficient website development, proactive feature optimization, and relentless debugging. Very passionate about Emerging Tech and UI / UX design.
+        Seasoned and independent Front End Developer with 5+ years of experience in blending the art of design with the skill of programming to deliver an immersive and engaging user experience through efficient website development, proactive feature optimization, and relentless debugging. Very passionate about Emerging Tech and UI / UX design.
         </span>
         {/* <a href={Resume} download style={{zIndex: "1111"}}> */}
           <button onClick={saveFile} className="button s-button" style={{marginTop: "4rem"}}>

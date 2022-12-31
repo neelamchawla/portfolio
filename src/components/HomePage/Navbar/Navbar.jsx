@@ -3,7 +3,7 @@ import Toggle from "./Menu/Toggle/Toggle";
 import "./Navbar.css";
 import { Link } from "react-scroll";
 import { themeContext } from "../../../Context";
-import logo from "../../../img/logo.png";
+import logo from "../../../img/logo/logo.png";
 
 const Navbar = () => {
   const theme = useContext(themeContext);

@@ -15,14 +15,14 @@ const eduData = [
     // url: "https://www.cleverprogrammer.com/pwj",
     icon: <TiMediaPlay />,
     event: "Masters of Computer Applications",
-    detail: "S M University"
+    detail: "Sikkim Manipal University"
   },
   {
     date: "2013",
     // url: "https://training.brentozar.com/p/live-class-season-pass",
     icon: <TiMediaPlay />,
     event: "Bachelor of Computer Applications",
-    detail: "S M University"
+    detail: "Sikkim Manipal University"
   },
   // {
   //   date: "2020 - 2021",

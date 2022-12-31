@@ -50,25 +50,30 @@ html {
   margin-left: -4%;
   margin-bottom: -53%;
 }
-
+.wave1b {
+  width: 110%;
+  margin-top: -2% !important;
+  margin-left: -5%;
+  margin-bottom: -53%;
+}
 .wave2 {
-  width: 70rem;
-  margin-top: 14%;
-  margin-left: -7%;
+  width: 84rem;
+  margin-top: 16.5%;
+  margin-left: -8%;
   margin-bottom: 2%;
 }
 .wave2b {
   width: 100rem;
   height: 47vh;
-  margin-top: 22%;
+  margin-top: 13%;
   margin-left: -30%;
   /* object-fit: none; */
   margin-bottom: 0%;
 }
 .wave3 {
-  width: 70rem;
+  width: 80rem;
   margin-left: -7%;
-  margin-bottom: -32%;
+  margin-bottom: -37%;
 }
 .wave4 {
   width: 113%;
@@ -88,6 +93,6 @@ html {
   margin-left: -7%;
   position: absolute;
   z-index: 1;
-  margin-top: -4%;
+  margin-top: 1%;
   height: 24vh;
 }

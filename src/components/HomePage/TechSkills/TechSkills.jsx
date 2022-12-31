@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
 import "./TechSkills.css";
-import ReactLogo from "../../../img/react-logo.png";
-import AngularLogo from "../../../img/angular.png";
-import VueLogo from "../../../img/vue.png";
-import Shopify from "../../../img/Shopify.png";
-import Wordpress from "../../../img/Wordpress.png";
+import ReactLogo from "../../../img/logo/react-logo.png";
+import AngularLogo from "../../../img/logo/angular.png";
+import VueLogo from "../../../img/logo/vue.png";
+import Shopify from "../../../img/logo/Shopify.png";
+import Wordpress from "../../../img/logo/Wordpress.png";
 import { themeContext } from "../../../Context";
 import { motion } from "framer-motion";
 import {Link} from 'react-scroll';

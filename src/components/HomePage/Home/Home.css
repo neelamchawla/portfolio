@@ -1,8 +1,9 @@
 .Home {
   display: flex;
   height: 65vh;
-  margin-top: 2rem;
+  margin-top: 1rem;
   padding-top: 9rem;
+  margin-left: 2em;
 }
 
 /* left side styling */
@@ -47,7 +48,7 @@
   height: 2rem;
 }
 .i-icons {
-  margin-top: 3rem;
+  margin-top: 1rem;
   display: flex;
   gap: 0rem;
 }

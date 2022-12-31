@@ -11,10 +11,10 @@ const Experience = () => {
   return (
     <div className="experience" id='experience'>
       <div style={{backgroundImage: darkMode && `url(${stars})`,
-      height: darkMode && "90vh",
-      width: darkMode && "100%",
+      height: darkMode ? "90vh" : "90vh",
+      width: darkMode ? "100%" : "100%",
       boxShadow: darkMode && "0 0 8px 30px black inset",
-      position: darkMode && "absolute",
+      position: darkMode ? "absolute" :  "absolute",
       // opacity: darkMode && "0.3"
     }}></div>
     {/* url(https://c.tenor.com/pAlz7X3u0dAAAAAC/tenor.gif) */}

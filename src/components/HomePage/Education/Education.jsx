@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { themeContext } from "../../../Context";
-import edu from "../../../img/coding-freak.gif";
+// import edu from "../../../img/coding-freak.gif";
 import Edu from "./Edu";
 import "./Education.css";
 
@@ -12,12 +12,12 @@ const Education = () => {
   return (
     <div id="education" className="education">
         {/* <div id="education" className="my-education"> */}
-        <div className="main">
+        {/* <div className="main">
         <span>
             Education
         </span>
-        </div>
-            <Edu />
+        </div> */}
+            <Edu darkMode={darkMode} />
         {/* <div className="exp">
         <div className="certificate">
             <h3 className="he">Post Graduate Diploma in Network Administration</h3>
