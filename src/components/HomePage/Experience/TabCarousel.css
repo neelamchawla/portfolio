@@ -6,6 +6,7 @@
     perspective: 500px;
     transform-style: preserve-3d;
     margin-top: 5em;
+    margin-left: -35px;
 }
 .TabCard-container {
     position: absolute;

@@ -44,18 +44,18 @@ const Carousel = ({children}) => {
 
 const TabCarousel = () => (
   <div className='app'>
-    <div className="main" style={{  position: 'absolute', marginTop: '-25px' }}>
+    <div className="main" style={{  position: 'absolute', marginTop: '-10px' }}>
         <span >
-            Experience
+            Work Experience
         </span>
         </div>
     <Carousel>
       {/* {[...new Array(CARDS)].map((_, i) => ( */}
       <Card/>
         <Card title='Software Developer' content='OpenEyes Technologies Inc.' years='Dec 2021 - Present' desc="Working on project based on React and Angular with Kendo-UI for Front-end and for back-end PHP - Laravel. Also worked on chrome extension for one of the project. Github repository for code management. And, to deploy the websites used Jenkins." />
-        <Card title='Web Developer' content='Future Link Consultants' years='Sep 2020 - Nov 2021' desc="Projects based on React, Shopify and WordPress. For styling we have used Material UI. Firebase features and Stripe, used to process payments in website." />
-        <Card title='React Developer' content='CodeZeros' years='Jan 2020 - Aug 2020' desc="Projects based on ReactJs. Redux, Saga, SASS, Material UI, Bootstrap, Firebase, Stripe, Github are some of the functions used in the projects." />
-        <Card title='Web Designer' content='Padmavati Online Services' years='Jun 2017 - Feb 2019' desc="Developed responsive web-applications using Bootstrap, with project based on PHP - Laravel through an agile test driven development approach. Optimized the existing system for increased performance and efficiency. Developed and tested for cross-browser compatibility." />
+        <Card title='Software Engineer' content='Future Link Consultants' years='Sep 2020 - Nov 2021' desc="Projects based on React, Shopify and WordPress. For styling we have used Material UI. Firebase features and Stripe, used to process payments in website." />
+        <Card title='Jr. Software Engineer' content='CodeZeros' years='Jan 2020 - Aug 2020' desc="Projects based on ReactJs. Redux, Saga, SASS, Material UI, Bootstrap, Firebase, Stripe, Github are some of the functions used in the projects." />
+        <Card title='Web Designer' content='Padmavati Online Services' years='Jun 2017 - Feb 2019' desc="Planning site designs, functionality and navigation. Building wireframes & prototypes which were then turned into functional and responsive digital products. Reviewing UX with multiple teams and making necessary edits. Handling all composition, color, illustration, typography, and branding for projects. " />
       <Card/>
      {/* ))} */}
     </Carousel>
