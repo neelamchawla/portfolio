@@ -20,13 +20,10 @@
     margin-left: 4%;
     width: 15%;
   }
-  .my-education .main > span {
+  .my-education, .sectionEdu > .main > span {
     color: var(--orange);
     font-size: 2.5rem;
     font-weight: bold;
-    margin-left: 55% !important;
-  }
-  .main > span {
     margin-left: 55% !important;
   }
   .my-education .main h2{

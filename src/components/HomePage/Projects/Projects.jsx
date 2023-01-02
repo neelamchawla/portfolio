@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
 import React1 from "../../../img/react/1.png";
 import React2 from "../../../img/react/2.png";
+import React2a from "../../../img/react/2a.PNG";
 import React3 from "../../../img/react/3.png";
 import React4 from "../../../img/react/4.png";
 import React5 from "../../../img/react/5.png";
@@ -78,6 +79,9 @@ const Projects = () => {
           </SwiperSlide>
           <SwiperSlide>
             <img src={React2} alt="React" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={React2a} alt="React" />
           </SwiperSlide>
           <SwiperSlide>
             <img src={React3} alt="React" />

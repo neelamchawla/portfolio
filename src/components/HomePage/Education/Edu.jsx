@@ -13,8 +13,8 @@ function Edu({darkMode}) {
     <section className="sectionEdu" id="education">
         {/* <h1>Education</h1> */}
         {/* <h6>My Qualifications</h6> */}
-        <div className="main" style={{ marginLeft: "55% !important" }}>
-        <span>
+        <div className="main">
+        <span style={{ marginLeft: "55% !important" }}>
             Education
         </span>
         </div>
