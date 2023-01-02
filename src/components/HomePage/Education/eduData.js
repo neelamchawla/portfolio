@@ -14,7 +14,7 @@ const eduData = [
     date: "2015",
     // url: "https://www.cleverprogrammer.com/pwj",
     icon: <TiMediaPlay />,
-    event: "Masters of Computer Applications",
+    event: "Master of Computer Applications",
     detail: "Sikkim Manipal University"
   },
   {
