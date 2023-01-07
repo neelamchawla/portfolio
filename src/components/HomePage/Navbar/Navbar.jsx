@@ -66,6 +66,11 @@ const Navbar = () => {
                 Projects
               </Link>
             </li>
+            <li className="nav__item">
+              <Link style={{color: darkMode? '' : 'var(--black)' }} className="nav__link" to="gallery" spy={true} smooth={true}>
+                Gallery
+              </Link>
+            </li>
             {/* <li className="nav__item">
               <Link style={{color: darkMode? '' : 'var(--black)' }} className="nav__link" to="/Projects">
                 Projects

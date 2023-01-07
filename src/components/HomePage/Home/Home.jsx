@@ -72,6 +72,16 @@ const Home = () => {
     height: "600px",
   };
 
+  const [cursorX, setCursorX] = useState();
+  const [cursorY, setCursorY] = useState();
+
+  window.addEventListener('mousemove', (e) => {
+    setCursorX(e.pageX - 25);
+    // console.log("pageX", e.pageX);
+    setCursorY(e.pageY - 25);
+    // console.log("pageY", e.pageY);
+  });
+
   return (
     <div style={{ backgroundImage: darkMode ? containerStyle : "" }} className="Home" id="Home">
       {/* left name side */}
@@ -161,6 +171,13 @@ const Home = () => {
         <div className="blur" style={{ background: "#C1F5FF", top: "17rem", width: "21rem", height: "11rem", left: "-9rem" }}></div>
       
       </div>
+
+      <div className="cursor"
+      style={{ 
+        left: cursorX + 'px',
+        top: cursorY + 'px'
+       }}
+      ></div>
     </div>
   );
 };

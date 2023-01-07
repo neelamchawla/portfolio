@@ -183,7 +183,7 @@ const Projects = () => {
           grabCursor={true}
           className="portfolio-slider"
         >
-          <SwiperSlide className="AngularSlide">
+          <SwiperSlide className="AngularSlide spacsLeft">
             {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
@@ -219,7 +219,7 @@ const Projects = () => {
           grabCursor={true}
           className="portfolio-slider"
         >
-          <SwiperSlide className="VueSlide">
+          <SwiperSlide className="VueSlide spacsLeft">
             {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
