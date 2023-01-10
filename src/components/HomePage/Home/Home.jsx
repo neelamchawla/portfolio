@@ -89,6 +89,7 @@ const Home = () => {
         <div className="i-name">
           <span style={{ color: darkMode ? "white" : "" }}>Hey! I'm</span>
           <span>Neelam Chawla</span>
+          <span>A React developer with a passion for building intuitive and user-friendly web applications.</span>
           <span>
             {/* Fullstack Web Developer with high level of experience  */}
             {/* on React, Angular, Vue <br/> */}
