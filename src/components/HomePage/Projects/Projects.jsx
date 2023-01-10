@@ -1,62 +1,14 @@
 import React, { useContext } from "react";
-import "./Projects.css";
-import { Swiper, SwiperSlide } from "swiper/react"
-import "swiper/css";
-import './GalleryCard.css'
-
-// import React1 from "../../../img/react/1.png";
-// import React2 from "../../../img/react/2.png";
-// import React2a from "../../../img/react/2a.PNG";
-// import React3 from "../../../img/react/3.png";
-// import React4 from "../../../img/react/4.png";
-// import React5 from "../../../img/react/5.png";
-// import React6 from "../../../img/react/6.png";
-import ReactLogo from "../../../img/logo/react-logo.png";
-
-// import Angular1 from "../../../img/angular/1.png";
-// import Angular2 from "../../../img/angular/2.png";
-import AngularLogo from "../../../img/logo/angular.png";
-
-// import Vue1 from "../../../img/vue/1.png";
-// import Vue2 from "../../../img/vue/2.png";
-import VueLogo from "../../../img/logo/vue.png";
-
-// import Prototype1 from "../../../img/prototype/1.png";
-// import Prototype2 from "../../../img/prototype/2.png";
-// import Prototype3 from "../../../img/prototype/3.png";
-// import Prototype4 from "../../../img/prototype/4.png";
-// import Prototype5 from "../../../img/prototype/5.png";
-// import Prototype6 from "../../../img/prototype/6.png";
-// import Prototype7 from "../../../img/prototype/7.png";
-// import Prototype8 from "../../../img/prototype/8.png";
-// import Prototype9 from "../../../img/prototype/9.png";
-// import Prototype10 from "../../../img/prototype/10.png";
-// import Prototype11 from "../../../img/prototype/11.png";
-// import Prototype12 from "../../../img/prototype/12.png";
-// import Prototype13 from "../../../img/prototype/13.png";
-import PrototypeLogo from "../../../img/prototype.gif";
-
-// import Ps1 from "../../../img/ps/1.png";
-// import Ps2 from "../../../img/ps/2.png";
-// import Ps3 from "../../../img/ps/3.png";
-// import Ps4 from "../../../img/ps/4.png";
-// import Ps5 from "../../../img/ps/5.png";
-// import Ps6 from "../../../img/ps/6.png";
-// import Ps7 from "../../../img/ps/7.png";
-// import Ps8 from "../../../img/ps/8.png";
-// import Ps9 from "../../../img/ps/9.png";
-// import Ps10 from "../../../img/ps/10.png";
-// import Ps11 from "../../../img/ps/11.png";
-// import Ps12 from "../../../img/ps/12.png";
-// import Ps13 from "../../../img/ps/13.png";
-// import Ps14 from "../../../img/ps/14.png";
-// import Ps15 from "../../../img/ps/15.png";
-// import Ps16 from "../../../img/ps/16.png";
-// import Ps17 from "../../../img/ps/17.png";
-// import Ps18 from "../../../img/ps/18.png";
-import MockupLogo from "../../../img/mockup.gif";
-
 import { themeContext } from "../../../Context";
+import { Swiper, SwiperSlide } from "swiper/react"
+import ReactLogo from "../../../img/logo/react-logo.png";
+import AngularLogo from "../../../img/logo/angular.png";
+import VueLogo from "../../../img/logo/vue.png";
+import PrototypeLogo from "../../../img/prototype.gif";
+import MockupLogo from "../../../img/mockup.gif";
+import "./Projects.css";
+import "swiper/css";
+import './GalleryCard.css';
 
 const Projects = () => {
   const theme = useContext(themeContext);
@@ -65,7 +17,6 @@ const Projects = () => {
     <div className="portfolio" id="portfolio">
       {/* heading */}
       <h4 style={{color: darkMode?'white': ''}}>Recent Projects</h4>
-      
       <>
       <img src={ReactLogo} className="rotates" alt="reactlogo"/>
       <span style={{ color: "#61DBFB"}}>React</span>
@@ -85,7 +36,6 @@ const Projects = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="ReactSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">E-Commerce World</h2>
@@ -94,7 +44,6 @@ const Projects = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="ReactSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">Multiple Project</h2>
@@ -103,7 +52,6 @@ const Projects = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="ReactSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">MovieLand</h2>
@@ -112,7 +60,6 @@ const Projects = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="ReactSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">Dashboard</h2>
@@ -121,7 +68,6 @@ const Projects = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="ReactSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">Website</h2>
@@ -130,7 +76,6 @@ const Projects = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="ReactSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">YouTube Clone</h2>
@@ -139,7 +84,6 @@ const Projects = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="ReactSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">Fan SignUp</h2>
@@ -148,7 +92,6 @@ const Projects = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="ReactSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">API Data</h2>
@@ -156,21 +99,6 @@ const Projects = () => {
                 </div>
             </div>
           </SwiperSlide>
-          {/* <SwiperSlide>
-            <img src={React2a} alt="React" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={React3} alt="React" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={React4} alt="React" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={React5} alt="React" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={React6} alt="React" />
-          </SwiperSlide> */}
         </Swiper>
       </>
       <>
@@ -184,7 +112,6 @@ const Projects = () => {
           className="portfolio-slider"
         >
           <SwiperSlide className="AngularSlide spacsLeft">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">Recipe Book</h2>
@@ -193,20 +120,13 @@ const Projects = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="AngularSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">Road Trip</h2>
-                    <button onClick={() => window.open("#")} target="_blank" className="btn">Explore</button>
+                    <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/2.bd87e7da4479cf917511.png")} target="_blank" className="btn">Explore</button>
                 </div>
             </div>
           </SwiperSlide>
-          {/* <SwiperSlide>
-            <img src={Angular1} alt="angular" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={Angular2} alt="angular" />
-          </SwiperSlide> */}
         </Swiper>
       </>
       <>
@@ -220,31 +140,24 @@ const Projects = () => {
           className="portfolio-slider"
         >
           <SwiperSlide className="VueSlide spacsLeft">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">Todo List</h2>
-                    <button onClick={() => window.open("https://recipe-book-72771.web.app/auth")} target="_blank" className="btn">Explore</button>
+                    <button onClick={() => window.open("https://taskz-tracker.netlify.app/")} target="_blank" className="btn">Explore</button>
                 </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="VueSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">Todo List</h2>
-                    <button onClick={() => window.open("https://recipe-book-72771.web.app/auth")} target="_blank" className="btn">Explore</button>
+                    <button onClick={() => window.open("https://taskz-tracker.netlify.app/")} target="_blank" className="btn">Explore</button>
                 </div>
             </div>
           </SwiperSlide>
-          {/* <SwiperSlide>
-            <img src={Vue1} alt="vue" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={Vue2} alt="vue" />
-          </SwiperSlide> */}
         </Swiper>
       </>
+      {/* Prototype */}
       <>
       <img src={PrototypeLogo} className="logo prologo" />
       <span>Prototype Designs</span>
@@ -256,25 +169,22 @@ const Projects = () => {
           className="portfolio-slider"
         >
           <SwiperSlide className="PrototypeSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">Twitter Clone</h2>
-                    <button onClick={() => window.open("#")} target="_blank" className="btn">Explore</button>
+                    <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/1.c18de2f79b9606ccc8de.png")} target="_blank" className="btn">Explore</button>
                 </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="PrototypeSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">Instagram Clone</h2>
-                    <button onClick={() => window.open("#")} target="_blank" className="btn">Explore</button>
+                    <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/2.007d3b39924b96103a04.png")} target="_blank" className="btn">Explore</button>
                 </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="PrototypeSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">Wonderlust</h2>
@@ -283,7 +193,6 @@ const Projects = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="PrototypeSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">Coffee Mania</h2>
@@ -292,7 +201,6 @@ const Projects = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="PrototypeSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">Sign Up</h2>
@@ -301,7 +209,6 @@ const Projects = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="PrototypeSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">Cafe App</h2>
@@ -310,7 +217,6 @@ const Projects = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="PrototypeSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">Unchanted Path</h2>
@@ -319,7 +225,6 @@ const Projects = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="PrototypeSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">WildReads</h2>
@@ -328,7 +233,6 @@ const Projects = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="PrototypeSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">Wix - Portfolio</h2>
@@ -337,7 +241,6 @@ const Projects = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="PrototypeSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">Road Trip</h2>
@@ -346,7 +249,6 @@ const Projects = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="PrototypeSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">InstructorHQ App</h2>
@@ -355,7 +257,6 @@ const Projects = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="PrototypeSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">Globe</h2>
@@ -364,7 +265,6 @@ const Projects = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="PrototypeSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">Sneaker</h2>
@@ -372,47 +272,9 @@ const Projects = () => {
                 </div>
             </div>
           </SwiperSlide>
-          {/* <SwiperSlide>
-            <img src={Prototype1} alt="proto" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={Prototype2} alt="proto" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={Prototype3} alt="proto" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={Prototype4} alt="proto" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={Prototype5} alt="proto" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={Prototype6} alt="proto" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={Prototype7} alt="proto" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={Prototype8} alt="proto" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={Prototype9} alt="proto" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={Prototype10} alt="proto" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={Prototype11} alt="proto" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={Prototype12} alt="proto" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={Prototype13} alt="proto" />
-          </SwiperSlide> */}
         </Swiper>
       </>
+      {/* MockupLogo */}
       <>
       <img src={MockupLogo} className="logo prologo" />
       <span>Mockup Designs</span>
@@ -424,223 +286,150 @@ const Projects = () => {
           className="portfolio-slider"
         >
           <SwiperSlide className="MockupSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">Photoshop - Mesh Tool Example</h2>
-                    <button onClick={() => window.open("#")} target="_blank" className="btn">Explore</button>
+                    <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/1.6d608939ec97586f7fb5.png")} target="_blank" className="btn">Explore</button>
                 </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="MockupSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">Figma - Glassmorphism</h2>
-                    <button onClick={() => window.open("#")} target="_blank" className="btn">Explore</button>
+                    <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/2.1a76b7d030d539e4dac2.png")} target="_blank" className="btn">Explore</button>
                 </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="MockupSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">Photoshop - Book Mockup</h2>
-                    <button onClick={() => window.open("#")} target="_blank" className="btn">Explore</button>
+                    <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/3.0363e689d5a4c04ba83f.png")} target="_blank" className="btn">Explore</button>
                 </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="MockupSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">Photoshop - Book Mockup</h2>
-                    <button onClick={() => window.open("#")} target="_blank" className="btn">Explore</button>
+                    <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/4.7e4ecc1e64df57c78150.png")} target="_blank" className="btn">Explore</button>
                 </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="MockupSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">Photoshop - Book Mockup</h2>
-                    <button onClick={() => window.open("#")} target="_blank" className="btn">Explore</button>
+                    <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/5.d1c535e0d269822938e3.png")} target="_blank" className="btn">Explore</button>
                 </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="MockupSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">Photoshop - Cup Mockup</h2>
-                    <button onClick={() => window.open("#")} target="_blank" className="btn">Explore</button>
+                    <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/6.32b90805e0eb2cbf9f09.png")} target="_blank" className="btn">Explore</button>
                 </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="MockupSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">Photoshop - Bottle Mockup</h2>
-                    <button onClick={() => window.open("#")} target="_blank" className="btn">Explore</button>
+                    <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/7.01d0531da5c0db322ecc.png")} target="_blank" className="btn">Explore</button>
                 </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="MockupSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">Illustrator - Neuromorphic Button Design</h2>
-                    <button onClick={() => window.open("#")} target="_blank" className="btn">Explore</button>
+                    <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/8.df426bca28d465f6d730.png")} target="_blank" className="btn">Explore</button>
                 </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="MockupSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">Illustrator - Logo Design</h2>
-                    <button onClick={() => window.open("#")} target="_blank" className="btn">Explore</button>
+                    <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/9.ac098050833c21a66dba.png")} target="_blank" className="btn">Explore</button>
                 </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="MockupSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">Parallax Effect</h2>
-                    <button onClick={() => window.open("#")} target="_blank" className="btn">Explore</button>
+                    <button onClick={() => window.open("https://glassmorphism-web.netlify.app/#tour")} target="_blank" className="btn">Explore</button>
                 </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="MockupSlide">
-            {/* <img src={React2} alt="React" /> */}
-            <div className="imgCard">
-                <div className="imgContent">
-                    <h2 className="title">Dynamic Swatch Color</h2>
-                    <button onClick={() => window.open("#")} target="_blank" className="btn">Explore</button>
-                </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="MockupSlide">
-            {/* <img src={React2} alt="React" /> */}
-            <div className="imgCard">
-                <div className="imgContent">
-                    <h2 className="title">Photoshop - YouTube Thumbnail Design</h2>
-                    <button onClick={() => window.open("#")} target="_blank" className="btn">Explore</button>
-                </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="MockupSlide">
-            {/* <img src={React2} alt="React" /> */}
-            <div className="imgCard">
-                <div className="imgContent">
-                    <h2 className="title">InDesign - Magazine Design</h2>
-                    <button onClick={() => window.open("#")} target="_blank" className="btn">Explore</button>
-                </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="MockupSlide">
-            {/* <img src={React2} alt="React" /> */}
-            <div className="imgCard">
-                <div className="imgContent">
-                    <h2 className="title">Illustrator - Dual Tone Design</h2>
-                    <button onClick={() => window.open("#")} target="_blank" className="btn">Explore</button>
-                </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="MockupSlide">
-            {/* <img src={React2} alt="React" /> */}
-            <div className="imgCard">
-                <div className="imgContent">
-                    <h2 className="title">Instagram Ads</h2>
-                    <button onClick={() => window.open("#")} target="_blank" className="btn">Explore</button>
-                </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="MockupSlide">
-            {/* <img src={React2} alt="React" /> */}
-            <div className="imgCard">
-                <div className="imgContent">
-                    <h2 className="title">Illustrator - Letter head & Card</h2>
-                    <button onClick={() => window.open("#")} target="_blank" className="btn">Explore</button>
-                </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="MockupSlide">
-            {/* <img src={React2} alt="React" /> */}
-            <div className="imgCard">
-                <div className="imgContent">
-                    <h2 className="title">Dynamic Count Down Clock</h2>
-                    <button onClick={() => window.open("#")} target="_blank" className="btn">Explore</button>
-                </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="MockupSlide">
-            {/* <img src={React2} alt="React" /> */}
             <div className="imgCard">
                 <div className="imgContent">
                     <h2 className="title">Glassmorphism Card</h2>
-                    <button onClick={() => window.open("#")} target="_blank" className="btn">Explore</button>
+                    <button onClick={() => window.open("https://glassmorphism-web.netlify.app/#team")} target="_blank" className="btn">Explore</button>
                 </div>
             </div>
           </SwiperSlide>
-          {/* <SwiperSlide>
-            <img src={Ps1} alt="ps" />
+          <SwiperSlide className="MockupSlide">
+            <div className="imgCard">
+                <div className="imgContent">
+                    <h2 className="title">Dynamic Count Down Clock</h2>
+                    <button onClick={() => window.open("https://glassmorphism-web.netlify.app/#ComingSoon")} target="_blank" className="btn">Explore</button>
+                </div>
+            </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <img src={Ps2} alt="ps" />
+          <SwiperSlide className="MockupSlide">
+            <div className="imgCard">
+                <div className="imgContent">
+                    <h2 className="title">Dynamic Swatch Color</h2>
+                    <button onClick={() => window.open("https://glassmorphism-web.netlify.app/#products")} target="_blank" className="btn">Explore</button>
+                </div>
+            </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <img src={Ps3} alt="ps" />
+          <SwiperSlide className="MockupSlide">
+            <div className="imgCard">
+                <div className="imgContent">
+                    <h2 className="title">Photoshop - YouTube Thumbnail Design</h2>
+                    <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/12.195c4f175c00e3def30f.png")} target="_blank" className="btn">Explore</button>
+                </div>
+            </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <img src={Ps4} alt="ps" />
+          <SwiperSlide className="MockupSlide">
+            <div className="imgCard">
+                <div className="imgContent">
+                    <h2 className="title">InDesign - Magazine Design</h2>
+                    <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/13.d43ebbcf4723fc12db97.png")} target="_blank" className="btn">Explore</button>
+                </div>
+            </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <img src={Ps5} alt="ps" />
+          <SwiperSlide className="MockupSlide">
+            <div className="imgCard">
+                <div className="imgContent">
+                    <h2 className="title">Illustrator - Dual Tone Design</h2>
+                    <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/14.8727de5c72acaf00b63b.png")} target="_blank" className="btn">Explore</button>
+                </div>
+            </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <img src={Ps6} alt="ps" />
+          <SwiperSlide className="MockupSlide">
+            <div className="imgCard">
+                <div className="imgContent">
+                    <h2 className="title">Instagram Ads</h2>
+                    <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/15.1ff6a258d1f784de5e3d.png")} target="_blank" className="btn">Explore</button>
+                </div>
+            </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <img src={Ps7} alt="ps" />
+          <SwiperSlide className="MockupSlide">
+            <div className="imgCard">
+                <div className="imgContent">
+                    <h2 className="title">Illustrator - Letter head & Card</h2>
+                    <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/16.3eac4d27c5cd4c7e2183.png")} target="_blank" className="btn">Explore</button>
+                </div>
+            </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <img src={Ps8} alt="ps" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={Ps9} alt="ps" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={Ps10} alt="ps" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={Ps11} alt="ps" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={Ps12} alt="ps" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={Ps13} alt="ps" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={Ps14} alt="ps" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={Ps15} alt="ps" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={Ps16} alt="ps" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={Ps17} alt="ps" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={Ps18} alt="ps" />
-          </SwiperSlide> */}
          </Swiper>
-
       </>
     </div>
   );

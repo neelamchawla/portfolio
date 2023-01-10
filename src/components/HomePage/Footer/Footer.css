@@ -9,7 +9,6 @@
 .f-content a:hover { 
   color: #2778c4;
   cursor: pointer;
-  font-weight: 600;
 }
 
 a {
@@ -55,7 +54,7 @@ a {
   transform: scale(1.3);
 }
 
-.content{ 
+.Copyright{ 
   position: absolute;
   bottom: 4%;
   left: 2%;
@@ -78,10 +77,8 @@ a {
   cursor: pointer;
   border-radius: 6px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.336);
-  /* hover effect default */
   transform: scale(0.9);
   transition: 0.3s ease-in-out transform;
-  /* for centering the icon */
   display: flex;
   align-items: center;
   justify-content: center;

@@ -3,11 +3,6 @@
     width: 210px;
     align-items: center;
     justify-content: space-between;
-    /* padding-left: 30px;
-    padding-right: 10px;
-    padding-top: 5px;
-    left: -145px;
-    padding-bottom: 5px; */
     padding: 5px 10px 5px 10px;
     position: relative;
     left: -105%;
@@ -34,17 +29,14 @@
   }
   
   .color-telegram {
-    /* background-color: #0084c6; */
     background: rgb(9,9,121);
     background: linear-gradient(270deg, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
   }
   .color-instagram {
-    /* background-color: #f62782; */
     background: rgb(131,58,180);
     background: linear-gradient(270deg, rgba(131,58,180,1) 9%, rgba(253,29,29,1) 62%, rgba(252,176,69,1) 100%);
   }
   .color-whatsapp {
-    /* background-color: #24cc63; */
     background: rgb(37,211,102);
     background: linear-gradient(270deg, rgba(37,211,102,1) 0%, rgba(40,228,74,1) 100%);
   }
@@ -60,7 +52,6 @@
   
   .social-btn p {
     color: white;
-  
     margin-top: 0px;
     margin-bottom: 0px;
   }

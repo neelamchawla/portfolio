@@ -9,7 +9,7 @@ const Card = ({emoji, heading, detail, color}) => {
       <span>{heading}</span>
       <span>{detail}</span>
       <Link to="portfolio" smooth={true} spy={true}>
-        <button className="c-button">MORE</button>
+        <button className="service-button">MORE</button>
       </Link>
     </div>
   );

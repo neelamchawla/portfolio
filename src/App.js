@@ -19,7 +19,6 @@ import Wave2b from "../src/img/wave/wave6.png";
 import Wave3 from "../src/img/wave/wave7.png";
 import Wave4 from "../src/img/wave/wave10.png";
 import Wave5 from "../src/img/wave/wave3.png";
-// import ProjectsCard from "./components/HomePage/Projects/ProjectsCard";
 
 function App() {
   const theme = useContext(themeContext);
@@ -49,7 +48,6 @@ function App() {
       <img src={Wave4} alt="wave" className="wave4b" style={{ display: darkMode ? "" : "none" }} />
       <Projects />
       <Gallery />
-      {/* <ProjectsCard /> */}
       <img src={Wave5} alt="wave" className="wave5" style={{ display: darkMode ? "none" : "" }} />
       <Contact />
       <Footer />

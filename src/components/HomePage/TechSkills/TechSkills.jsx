@@ -1,14 +1,14 @@
 import React, { useContext } from "react";
-import "./TechSkills.css";
+import { themeContext } from "../../../Context";
+import { motion } from "framer-motion";
+import {Link} from 'react-scroll';
+import TabCarousel from "./TabCarousel";
 import ReactLogo from "../../../img/logo/react-logo.png";
 import AngularLogo from "../../../img/logo/angular.png";
 import VueLogo from "../../../img/logo/vue.png";
 import Shopify from "../../../img/logo/Shopify.png";
 import Wordpress from "../../../img/logo/Wordpress.png";
-import { themeContext } from "../../../Context";
-import { motion } from "framer-motion";
-import {Link} from 'react-scroll';
-import TabCarousel from "./TabCarousel";
+import "./TechSkills.css";
 
 const TechSkills = () => {
   // context
@@ -28,118 +28,18 @@ const TechSkills = () => {
             </span>
             <span>On Your Mind</span>
             <Link to="contact" smooth={true} spy={true}>
-              <button className="button s-button extra" style={{marginTop: "-3rem"}}>Contact</button>
+              <button className="button tech-button extra" style={{marginTop: "-3rem"}}>Contact</button>
             </Link>
           </div>
-
           <TabCarousel darkMode={darkMode} />
-            {/* <p>
-            React.Js / Angular / Vue.Js /
-            JSX / JS / TS /
-            MySql / MongoDB /
-            JavaScript / HTML / PHP - Laravel /
-            CSS / SASS /
-            Tailwind CSS / Bootstrap /
-            Kendo UI / Material UI /
-            Firebase / Github / Netlify / Heroku /
-            Wordpress / Shopify
-            </p> */}
-
-
-            {/* buttons */}
-            {/* <p>
-            <Link to="portfolio" smooth={true} spy={true}>
-              <button className="button s-button" style={{marginTop: "3rem", width: "auto"}}>React.Js / Angular / Vue.Js</button>
-            </Link>
-            <Link to="portfolio" smooth={true} spy={true}>
-              <button className="button s-button" style={{marginTop: "3rem", width: "auto"}}>JSX / JS / TS</button>
-            </Link>
-            <Link to="portfolio" smooth={true} spy={true}>
-              <button className="button s-button" style={{marginTop: "3rem", width: "auto"}}>MySql / MongoDB / Firebase</button>
-            </Link>
-            <Link to="portfolio" smooth={true} spy={true}>
-              <button className="button s-button" style={{marginTop: "3rem", width: "auto"}}>JavaScript / HTML / PHP - Laravel</button>
-            </Link>
-            <Link to="portfolio" smooth={true} spy={true}>
-              <button className="button s-button" style={{marginTop: "3rem", width: "auto"}}>Wordpress / Shopify</button>
-            </Link>
-            <Link to="portfolio" smooth={true} spy={true}>
-              <button className="button s-button" style={{marginTop: "3rem", width: "auto"}}>CSS / SASS / Tailwind CSS / Bootstrap / Kendo UI / Material UI</button>
-            </Link>
-            <Link to="portfolio" smooth={true} spy={true}>
-              <button className="button s-button" style={{marginTop: "3rem", width: "auto"}}>Firebase / Github / Netlify / Heroku</button>
-            </Link>
-            <Link to="portfolio" smooth={true} spy={true}>
-              <button className="button s-button" style={{marginTop: "3rem", width: "auto"}}>Asana / Trello / Jira / ZOHO / Slack</button>
-            </Link>
-
-            </p> */}
-
-            {/* buttons end */}
-
-
-          {/* </div> */}
-          {/* <span>
-            For Front-end Based on React, Angular, VueJS
-            <br />
-            Or For Back-end Based on NodeJs, Firebase, Laravel.
-            <br />
-            You Can Also, contact for Mockup Designs,
-            <br />
-            Based on: Figma, Webflow, AxureRP, Adobe: Xd, Ps, Ai, Id.
-            <br />
-            Wordpress, Shopify, Slack, Upwork, Freelancer, Github, Netlify... 
-            <br />
-            These are some of the website I've been working on, for deploying my Projects
-          </span> */}
-          <span>
-            {/* <div className="my-skills">
-              <div className="">
-                <div className="progress">
-                  <div className="technique">
-                    <h3>React / Angular / Vue</h3>
-                    <div>
-                      <span style={{ width: "80%" }}>80% &nbsp;</span>
-                    </div>
-                  </div>
-                  <div className="technique">
-                    <h3>HTML / CSS</h3>
-                    <div>
-                      <span style={{ width: "83%" }}>83% &nbsp;</span>
-                    </div>
-                  </div>
-                  <div className="technique">
-                    <h3>MongoDB / MySql / Firebase</h3>
-                    <div>
-                      <span style={{ width: "58%" }}>58% &nbsp;</span>
-                    </div>
-                  </div>
-                  <div className="technique">
-                    <h3>Wordpress / Shopify</h3>
-                    <div>
-                      <span style={{ width: "52%" }}>52% &nbsp;</span>
-                    </div>
-                  </div>
-                  <div className="technique">
-                    <h3>Graphic Design</h3>
-                    <div>
-                      <span style={{ width: "79%" }}>79% &nbsp;</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div> */}
-          </span>
-
-
           <div
             className="blur s-blur1"
             style={{ background: "#ABF1FF94" }}
           ></div>
         </div>
-
-        {/* right side */}
       </div>
+
+      {/* right side */}
       <div className="w-right">
         <motion.div
           initial={{ rotate: 45 }}
@@ -164,9 +64,11 @@ const TechSkills = () => {
             <img src={Wordpress} alt="wordpress" />
           </div>
         </motion.div>
+
         {/* background Circles */}
         <div className="w-backCircle blueCircle"></div>
         <div className="w-backCircle yellowCircle"></div>
+
       </div>
     </div>
   );

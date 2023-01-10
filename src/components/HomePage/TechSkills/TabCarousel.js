@@ -1,5 +1,4 @@
-import React from 'react'
-import './TabCarousel.css';
+import React from 'react';
 import Angular from "../../../img/logo/angular.png";
 import Bootstrap from "../../../img/logo/bootstrap.png";
 import CSS3 from "../../../img/logo/css3.png";
@@ -19,6 +18,7 @@ import TailwindCss from "../../../img/logo/tailwindcss.png";
 import ReactJs from "../../../img/logo/react-logo.png";
 import Vue from "../../../img/logo/vue.png";
 import Wordpress from "../../../img/logo/Wordpress.png";
+import './TabCarousel.css';
 
 function TabCarousel({darkMode}) {
 
@@ -27,8 +27,6 @@ function TabCarousel({darkMode}) {
   )
 }
 
-const COLORS = ['#bbf7d0', '#99f6e4', '#bfdbfe', '#ddd6fe', '#f5d0fe', '#fed7aa', '#fee2e2'];
-// const TAGS = ['HTML', 'CSS', 'JavaScript', 'Typescript', 'Tailwind CSS', 'React.Js', 'Angular', 'Vue.Js', 'Gatsby', 'UI/UX', 'SVG', 'Animation', 'MySql', 'MongoDB', 'Firebase', 'JavaScript', 'HTML', 'PHP - Laravel','Wordpress', 'Shopify', 'CSS', 'SASS', 'Tailwind CSS', 'Bootstrap', 'Kendo UI', 'Material UI', 'Firebase', 'Github', 'Netlify', 'Heroku', 'Asana', 'Trello', 'Jira', 'ZOHO', 'Slack'];
 const TAGS = [ ReactJs, Angular, Vue, Shopify, Wordpress, Github, Bootstrap, CSS3, FireBase, Gatsby, Heroku, JSX, KendoUI, MongoDB, MUI, MySQL, Netlify, Sass, TailwindCss ];
 const DURATION = 25000;
 const ROWS = 3;
@@ -53,7 +51,6 @@ const InfiniteLoopSlider = ({children, duration, reverse = false}) => {
 
 const Tag = ({text, color, darkMode}) => (
   <div className='tag' style={{ '--color': color, boxShadow: darkMode ? "0px 7px 10px #8492a68c" : "0px 7px 10px #030b168c" }}>
-    {/* <span>#</span> {text} */}
     <img
         src={text}
         height={70}
@@ -62,7 +59,7 @@ const Tag = ({text, color, darkMode}) => (
       />
     </div>
 );
-{/* <img src={text} alt="img"/> */}
+
 const App = ({darkMode}) => (
   <>
     <div className='tag-list'>

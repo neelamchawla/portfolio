@@ -8,8 +8,6 @@
   align-items: center;
   width: 10rem;
   text-align: center;
-  /* background: rgba(255, 255, 255, 0.26);
-  border: 7px solid var(--orangeCard); */
   background: rgb(131 58 180);
   border: 7px solid rgb(9 9 121 / 32%);
   box-shadow: -9px 13px 11px #5555555e;
@@ -25,7 +23,7 @@
   transform: scale(0.6);
   margin-bottom: -2rem;
 }
-.c-button {
+.service-button {
     background: #FFFFFF;
     box-shadow: 0px 19px 60px rgba(0, 0, 0, 0.08);
     border-radius: 7px;
@@ -34,8 +32,7 @@
     font-size: 16px;
     color: #5290FD;
 }
-
-.c-button:hover{
+.service-button:hover{
     transform: scale(1.1);
     cursor: pointer;
 }

@@ -72,9 +72,9 @@ const Contact = () => {
           marginTop: "-3%",
         }}></div>
 
-      {/* left side copy and paste from work section */}
+      {/* left side */}
       <div className="w-left">
-        <div className="awesome">
+        <div className="c-awesome">
           {/* darkMode */}
           <span style={{color: darkMode?'white': ''}}>Get in <span>Touch</span></span>
           <div
@@ -89,8 +89,7 @@ const Contact = () => {
           <input type="text" name="from_name" onChange={setName} className="user"  placeholder="Name"/>
           <input type="email" name="user_email" onChange={setEmail} className="user" placeholder="Email"/>
           <textarea name="message" className="user" onChange={setMsg} placeholder="Message"/>
-          <input type="submit" value="Send" className="button s-button"/>
-          {/* <span>{done && "Thanks for Contacting me!! I'll reach you out soon"}</span> */}
+          <input type="submit" value="Send" className="button c-button"/>
           <div
             className="blur c-blur1"
             style={{ background: "var(--purple)" }}

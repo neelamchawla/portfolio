@@ -11,6 +11,7 @@ import Gallery7 from "../../../img/company/7.jpg";
 import Gallery8 from "../../../img/company/8.jpg";
 import Gallery9 from "../../../img/company/9.jpg";
 import Gallery10 from "../../../img/company/10.jpg";
+import Gallery11 from "../../../img/company/11.jpeg";
 import { themeContext } from "../../../Context";
 
 function Gallery() {
@@ -24,7 +25,8 @@ function Gallery() {
         <img className='galleryPic' style={{ width: "58% !important" }} src={Gallery7} alt="7" />,
         <img className='galleryPic' style={{ width: "48% !important" }} src={Gallery8} alt="8" />,
         <img className='galleryPic' src={Gallery9} alt="9" />, 
-        <img className='galleryPic' src={Gallery10} alt="10" /> ];
+        <img className='galleryPic' src={Gallery10} alt="10" />, 
+        <img className='galleryPic' src={Gallery11} alt="11" /> ];
 
         const callback = function(index){
             <Carousel slides={slides} />
@@ -48,32 +50,3 @@ function Gallery() {
 }
 
 export default Gallery;
-
-
-// class Gallery extends React.Component {
-//     constructor(props) {
-//       super(props)
-//     }
-    
-//     render() {
-//       let slides = [
-//         <img className='galleryPic' src={Gallery1} alt="1" />,
-//         <img className='galleryPic' src={Gallery2} alt="2" />,
-//         <img className='galleryPic' src={Gallery3} alt="3" />,
-//         <img className='galleryPic' src={Gallery4} alt="4" />,
-//         <img className='galleryPic' src={Gallery5} alt="5" />,
-//         <img className='galleryPic' src={Gallery6} alt="6" />,
-//         <img className='galleryPic' style={{ width: "58% !important" }} src={Gallery7} alt="7" />,
-//         <img className='galleryPic' style={{ width: "48% !important" }} src={Gallery8} alt="8" />,
-//         <img className='galleryPic' src={Gallery9} alt="9" />, 
-//         <img className='galleryPic' src={Gallery10} alt="10" /> ];
-//       return (
-//         <div className='gallery' id="gallery">
-//             <h4 className='galleryHead'>Professional Journey</h4>
-//             <Carousel slides={slides}/>
-//         </div>
-//       );
-//     }
-//   }
-
-// export default Gallery;

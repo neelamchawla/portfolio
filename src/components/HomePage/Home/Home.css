@@ -101,14 +101,7 @@
   transform: scale(0.67);
   left: -3rem;
 }
-/* .i-right > :nth-child(3) {
-  transform: scale(1.4);
-  left: 28%;
-} */
 .i-right > :nth-child(3) {
-  /* transform: scale(1);
-  left: 18%;
-  margin-top: -18%; */
   transform: scale(0.7);
   left: -13%;
   margin-top: -22%;

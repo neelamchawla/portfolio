@@ -1,19 +1,16 @@
 import React, { useState, useEffect, useContext } from "react";
-import "./Home.css";
+import { themeContext } from "../../../Context";
+import { motion } from "framer-motion";
 import Vector1 from "../../../img/Vector1.png";
 import Vector2 from "../../../img/Vector2.png";
 import girl from "../../../img/girl5.png";
-// import glassesimoji from "../../../img/glassesimoji.png";
 import Tech from "../../../img/tech.png";
 import thumbup from "../../../img/thumbup.png";
 import crown from "../../../img/crown.png";
 import FloatinDiv from "./FloatingDiv/FloatingDiv";
 import Github from "../../../img/logo/github.png";
 import LinkedIn from "../../../img/logo/linkedin.png";
-// import Instagram from "../../../img/logo/instagram.png";
-import { themeContext } from "../../../Context";
-import { motion } from "framer-motion";
-// import { Link } from "react-scroll";
+import "./Home.css";
 
 const Home = () => {
   // Transition
@@ -77,9 +74,7 @@ const Home = () => {
 
   window.addEventListener('mousemove', (e) => {
     setCursorX(e.pageX - 25);
-    // console.log("pageX", e.pageX);
     setCursorY(e.pageY - 25);
-    // console.log("pageY", e.pageY);
   });
 
   return (
@@ -91,19 +86,10 @@ const Home = () => {
           <span>Neelam Chawla</span>
           <span>A React developer with a passion for building intuitive and user-friendly web applications.</span>
           <span>
-            {/* Fullstack Web Developer with high level of experience  */}
-            {/* on React, Angular, Vue <br/> */}
-            {/* I have good knowledge of Figma, Webflow, AxureRP, Adobe: Xd, Ps, Ai, Id */}
             Experienced in:
           </span>
-          {/* <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'> */}
-            <span className="wrap">{text}</span>
-          {/* </span> */}
+          <span className="wrap">{text}</span>
         </div>
-        {/* <Link to="contact" smooth={true} spy={true}>
-          <button className="button i-button">Contact</button>
-        </Link> */}
-        {/* social icons */}
         <div className="i-icons">
           <a href="https://github.com/neelamchawla">
             <img src={Github} alt="git" />
@@ -113,7 +99,6 @@ const Home = () => {
           </a>
         </div>
       </div>
-      {/* right image side */}
       <div className="i-right">
         <img src={Vector1} alt="vec1" />
         <img src={Vector2} alt="vec2" />
@@ -126,32 +111,13 @@ const Home = () => {
           src={crown}
           alt="transition"
         />
-        {/* <motion.div
-          initial={{ top: "-9%", left: "-15%" }}
-          whileInView={{ left: "-5%" }}
-          transition={transition}
-          className="floating-div"
-          
-        >
-          <FloatinDiv 
-            img={thumbup}
-            text1="Trending" text2="Web Dev Tech"
-            style={{
-              // padding: "0px !important",
-              height: "9rem",
-              width: "100%",
-              // borderRadius: "50%",
-            }} />
-        </motion.div> */}
         <motion.div
           initial={{ top: "-4%", left: "74%" }}
           whileInView={{ left: "60%" }}
           transition={transition}
           className="floating-div"
         >
-          <FloatinDiv 
-            // img={crown}
-            // text1="Web" text2="Developer" 
+          <FloatinDiv
             img={Tech}
             text1="Creative" text2=" UI / UX Experience"
           />

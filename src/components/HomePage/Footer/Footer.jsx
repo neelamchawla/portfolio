@@ -1,13 +1,11 @@
-import React, { useState, useEffect, useContext } from "react";
-import "./Footer.css";
-// import "./Waves.css";
-import Wave from "../../../img/wave/wave.png";
+import React, { useEffect, useContext } from "react";
+import { themeContext } from "../../../Context";
 import Insta from "@iconscout/react-unicons/icons/uil-instagram";
 import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
 import Gitub from "@iconscout/react-unicons/icons/uil-github";
-import { themeContext } from "../../../Context";
-// import {MenuButton, Menu, toRadians} from "../Navbar/Menu/Menu";
+import Wave from "../../../img/wave/wave.png";
 import QRCode from "../../../img/QRcode.png";
+import "./Footer.css";
 
 const Footer = () => {
 
@@ -26,27 +24,10 @@ const Footer = () => {
   return (
     <div className="footer">
       <img src={Wave} alt="bg" style={{ width: "100%" }} />
-{/*Waves Container*/}
-{/* <div>
-  <svg className="waves" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shapeRendering="auto">
-    <defs>
-      <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-    </defs>
-    <g className="parallax">
-      <use xlinkHref="#gentle-wave" x={48} y={0} fill="rgba(255,255,255,0.7" />
-      <use xlinkHref="#gentle-wave" x={48} y={3} fill="rgba(255,255,255,0.5)" />
-      <use xlinkHref="#gentle-wave" x={48} y={5} fill="rgba(255,255,255,0.3)" />
-      <use xlinkHref="#gentle-wave" x={48} y={7} fill="#fff" />
-    </g>
-  </svg>
-</div> */}
-{/*Waves end*/}
       <div className="f-content">
-        <span>
-          <a href="mailto:neelam.projects@gmail.com">
-            neelam.projects@gmail.com
-          </a>
-          </span>
+        <a href="mailto:neelam.projects@gmail.com">
+          neelam.projects@gmail.com
+        </a>
         <div className="f-icons">
             <Insta className="insta" color="white" size={"3rem"} />
             <Facebook className="fb" color="white" size={"3rem"} />
@@ -72,7 +53,7 @@ const Footer = () => {
         </svg>
       </div>
 
-      <div className="content">
+      <div className="Copyright">
       Copyright © {today.getFullYear()} Neelam Chawla, All Rights Reserved
       </div>
     </div>
