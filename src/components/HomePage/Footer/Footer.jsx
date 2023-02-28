@@ -3,8 +3,8 @@ import { themeContext } from "../../../Context";
 import Insta from "@iconscout/react-unicons/icons/uil-instagram";
 import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
 import Gitub from "@iconscout/react-unicons/icons/uil-github";
-import Wave from "../../../img/wave/wave.png";
-import QRCode from "../../../img/QRcode.png";
+import Wave from "../../img/wave/wave.png";
+import QRCode from "../../img/QRcode.png";
 import "./Footer.css";
 
 const Footer = () => {
@@ -13,7 +13,7 @@ const Footer = () => {
   const darkMode = theme.state.darkMode;
 
   useEffect(() => {
-  const scrollButton = document.querySelector(".scroll-top");
+    const scrollButton = document.querySelector(".scroll-top");
     scrollButton.addEventListener("click", () => {
       window.scrollTo(0, 0);
     });
@@ -29,11 +29,11 @@ const Footer = () => {
           neelam.projects@gmail.com
         </a>
         <div className="f-icons">
-            <Insta className="insta" color="white" size={"3rem"} />
-            <Facebook className="fb" color="white" size={"3rem"} />
-            <Gitub className="git" color="white" size={"3rem"} />
+          <Insta className="insta" color="white" size={"3rem"} />
+          <Facebook className="fb" color="white" size={"3rem"} />
+          <Gitub className="git" color="white" size={"3rem"} />
         </div>
-      <img title="VCard" src={QRCode} className="QRCode" style={{width: "7%"}} alt="qrcode" />
+        <img title="VCard" src={QRCode} className="QRCode" alt="qrcode" />
       </div>
 
       <div className="scroll-top">
@@ -42,7 +42,7 @@ const Footer = () => {
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
-          style={{color: darkMode ? '': 'white'}}
+          style={{ color: darkMode ? '' : 'white' }}
         >
           <path
             strokeLinecap="round"
@@ -54,7 +54,7 @@ const Footer = () => {
       </div>
 
       <div className="Copyright">
-      Copyright © {today.getFullYear()} Neelam Chawla, All Rights Reserved
+        Copyright © {today.getFullYear()} Neelam Chawla, All Rights Reserved
       </div>
     </div>
   );

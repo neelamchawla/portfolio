@@ -1,21 +1,37 @@
-:root
-{
+:root {
   --yellow: #F5C32C;
-    --orange : #FCA61F;
-    --black : #242D49;
-    --gray : #788097;
-    --blueCard : #DDF8FE;
-    --purple: rgb(238 210 255);
-    --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
-    --orangeCard: rgba(252, 166, 31, 0.45);
-    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+  --orange: #FCA61F;
+  --black: #242D49;
+  --gray: #788097;
+  --blueCard: #DDF8FE;
+  --purple: rgb(238 210 255);
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --orangeCard: rgba(252, 166, 31, 0.45);
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
 }
 
-html {
+@font-face {
+  font-family: 'Andika', sans-serif;
+  src: inherit;
+}
+
+/* src: url('../src/fonts/*'); */
+
+* {
+  font-family: 'Andika', sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+body {
+  margin: 0;
+}
+
+/* html {
   scroll-behavior: smooth;
-}
+} */
 
-.App{
+.App {
   padding: 0.5rem 3.5rem;
   overflow: hidden;
   color: var(--black);
@@ -30,7 +46,7 @@ html {
   font-size: 16px;
   padding: 11px 26px 11px 26px;
 }
-  
+
 .button:hover {
   background: white;
   cursor: pointer;
@@ -45,18 +61,21 @@ html {
   margin-left: -4%;
   margin-bottom: -53%;
 }
+
 .wave1b {
   width: 110%;
   margin-top: -2% !important;
   margin-left: -5%;
   margin-bottom: -53%;
 }
+
 .wave2 {
   width: 84rem;
   margin-top: 16.5%;
   margin-left: -8%;
   margin-bottom: 2%;
 }
+
 .wave2b {
   width: 100rem;
   height: 47vh;
@@ -64,21 +83,25 @@ html {
   margin-left: -30%;
   margin-bottom: 0%;
 }
+
 .wave3 {
   width: 80rem;
   margin-left: -7%;
   margin-bottom: -37%;
 }
+
 .wave4 {
   width: 113%;
   margin-left: -7%;
   margin-bottom: -18%;
 }
+
 .wave4b {
   width: 113%;
   margin-left: -7%;
   margin-bottom: -38%;
 }
+
 .wave5 {
   width: 101.7%;
   margin-left: -7%;

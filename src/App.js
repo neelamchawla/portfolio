@@ -12,13 +12,14 @@ import Gallery from "./components/HomePage/Gallery/Gallery";
 import Contact from "./components/HomePage/Contact/Contact";
 import Social from "./components/HomePage/socialMedia/social";
 import Footer from "./components/HomePage/Footer/Footer";
-import Wave1 from "../src/img/wave/wave1.png";
-import Wave1b from "../src/img/wave/wave1b.png";
-import Wave2 from "../src/img/wave/wave2.png";
-import Wave2b from "../src/img/wave/wave6.png";
-import Wave3 from "../src/img/wave/wave7.png";
-import Wave4 from "../src/img/wave/wave10.png";
-import Wave5 from "../src/img/wave/wave3.png";
+import Wave1 from "../src/components/img/wave/wave1.png";
+import Wave1b from "../src/components/img/wave/wave1b.png";
+import Wave2 from "../src/components/img/wave/wave2.png";
+import Wave2b from "../src/components/img/wave/wave6.png";
+import Wave3 from "../src/components/img/wave/wave7.png";
+import Wave4 from "../src/components/img/wave/wave10.png";
+import Wave5 from "../src/components/img/wave/wave3.png";
+import Hobbies from "./components/HomePage/Hobbies/Hobbies";
 
 function App() {
   const theme = useContext(themeContext);
@@ -42,11 +43,12 @@ function App() {
       <img src={Wave2b} alt="wave" className="wave2b" style={{ display: darkMode ? "" : "none" }} />
       <Education />
       <Experience />
-      <img src={Wave3} alt="wave" className="wave3"/>
+      <img src={Wave3} alt="wave" className="wave3" />
       <TechSkills />
       <img src={Wave2} alt="wave" className="wave4" style={{ display: darkMode ? "none" : "" }} />
       <img src={Wave4} alt="wave" className="wave4b" style={{ display: darkMode ? "" : "none" }} />
       <Projects />
+      <Hobbies />
       <Gallery />
       <img src={Wave5} alt="wave" className="wave5" style={{ display: darkMode ? "none" : "" }} />
       <Contact />

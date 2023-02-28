@@ -1,15 +1,15 @@
 import React, { useState, useEffect, useContext } from "react";
 import { themeContext } from "../../../Context";
 import { motion } from "framer-motion";
-import Vector1 from "../../../img/Vector1.png";
-import Vector2 from "../../../img/Vector2.png";
-import girl from "../../../img/girl5.png";
-import Tech from "../../../img/tech.png";
-import thumbup from "../../../img/thumbup.png";
-import crown from "../../../img/crown.png";
+import Vector1 from "../../img/Vector1.png";
+import Vector2 from "../../img/Vector2.png";
+import girl from "../../img/girl5.png";
+import Tech from "../../img/tech.png";
+import thumbup from "../../img/thumbup.png";
+import crown from "../../img/crown.png";
 import FloatinDiv from "./FloatingDiv/FloatingDiv";
-import Github from "../../../img/logo/github.png";
-import LinkedIn from "../../../img/logo/linkedin.png";
+import Github from "../../img/logo/github.png";
+import LinkedIn from "../../img/logo/linkedin.png";
 import "./Home.css";
 
 const Home = () => {
@@ -26,7 +26,7 @@ const Home = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Software Development", "Web Development", "UI / UX Design",  "Web Design", "Graphic Design" ];
+  const toRotate = ["Software Development", "Web Development", "UI / UX Design", "Web Design", "Graphic Design"];
   const period = 700;
 
   useEffect(() => {
@@ -64,7 +64,7 @@ const Home = () => {
 
   const containerStyle = {
     backgroundImage:
-      "url(../../../img/banner-bg.png)",
+      "url(../../img/banner-bg.png)",
     width: "600px",
     height: "600px",
   };
@@ -129,21 +129,21 @@ const Home = () => {
           className="floating-div"
         >
           <FloatinDiv
-           img={thumbup}
-           text1="Trending" text2="Web Development" text3="Technology"
+            img={thumbup}
+            text1="Trending" text2="Web Development" text3="Technology"
           />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)", zIndex: "0" }}></div>
         <div className="blur" style={{ background: "#C1F5FF", top: "17rem", width: "21rem", height: "11rem", left: "-9rem" }}></div>
-      
+
       </div>
 
       <div className="cursor"
-      style={{ 
-        left: cursorX + 'px',
-        top: cursorY + 'px'
-       }}
+        style={{
+          left: cursorX + 'px',
+          top: cursorY + 'px'
+        }}
       ></div>
     </div>
   );

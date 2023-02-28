@@ -9,7 +9,7 @@
     margin-bottom: 8rem;
     /* darkmode */
     color: var(--black);
-  }
+}
 
 .carousel {
     position: relative;
@@ -21,7 +21,7 @@
     margin-left: -35px;
 }
 
-.t-main > span {
+.t-main>span {
     color: var(--orange);
     font-size: 2.5rem;
     font-weight: bold;
@@ -41,7 +41,7 @@
     width: 100%;
     height: 100%;
     padding: 2rem;
-    background-image: linear-gradient(45deg, #8B5CF6 ,#EC4899);
+    background-image: linear-gradient(45deg, #8B5CF6, #EC4899);
     border-radius: 1rem;
     color: #1f2937;
     text-align: justify;
@@ -58,7 +58,8 @@
     color: #1f2937;
 }
 
-.TabCard p, .TabCard h2 {
+.TabCard p,
+.TabCard h2 {
     transition: all 0.3s ease-out;
     opacity: var(--active);
 }
@@ -89,7 +90,7 @@
 }
 
 @media screen and (max-width: 480px) {
-    .experience{
+    .experience {
         transform: scale(0.7);
     }
 }

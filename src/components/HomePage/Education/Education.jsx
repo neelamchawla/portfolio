@@ -10,7 +10,7 @@ const Education = () => {
 
   return (
     <div id="education" className="education">
-        <Edu darkMode={darkMode} />
+      <Edu darkMode={darkMode} />
     </div>
   )
 }

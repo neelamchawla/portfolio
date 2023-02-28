@@ -29,8 +29,8 @@
   font-weight: bold;
 }
 
-.portfolio .swiper{
-    overflow: visible!important;
+.portfolio .swiper {
+  overflow: visible !important;
 }
 
 .portfolio-slider {
@@ -50,13 +50,13 @@
   height: 70%;
 }
 
-.rotates{
+.rotates {
   width: 65px !important;
   height: 65px !important;
   filter: none !important;
 }
 
-.logo{
+.logo {
   width: 45px !important;
   height: 45px !important;
   filter: none !important;
@@ -70,12 +70,12 @@
   border-radius: 12px !important;
 }
 
-@keyframes rotation{
- from{
-   transform:rotate(0deg);
- }
- 
- to{
-   transform:rotate(360deg);
- }
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }

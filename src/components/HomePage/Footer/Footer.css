@@ -6,7 +6,7 @@
   margin-top: -11rem;
 }
 
-.f-content a:hover { 
+.f-content a:hover {
   color: #2778c4;
   cursor: pointer;
 }
@@ -16,7 +16,7 @@ a {
   color: white;
 }
 
-.f-content img:hover { 
+.f-content img:hover {
   transform: scale(1.3);
 }
 
@@ -43,25 +43,35 @@ a {
   cursor: pointer;
   transform: scale(1.3);
 }
+
 .f-icons .fb:hover {
   fill: #2778c4;
   cursor: pointer;
   transform: scale(1.3);
 }
+
 .f-icons .git:hover {
   fill: var(--black);
   cursor: pointer;
   transform: scale(1.3);
 }
 
-.Copyright{ 
-  position: absolute;
-  bottom: 4%;
-  left: 2%;
+.QRCode {
+  width: 7%;
+  margin-top: 10px;
 }
 
-@media screen and (max-width: 480px){
-  .f-content{
+.Copyright {
+  position: absolute;
+  bottom: 0%;
+  /* left: 2%; */
+  background-color: #0000ff12;
+  padding: 1em;
+  width: -webkit-fill-available;
+}
+
+@media screen and (max-width: 480px) {
+  .f-content {
     transform: scale(.5);
   }
 }
@@ -83,6 +93,7 @@ a {
   align-items: center;
   justify-content: center;
 }
+
 .scroll-top svg {
   width: 50%;
   color: black;

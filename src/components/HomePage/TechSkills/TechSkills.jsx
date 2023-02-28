@@ -1,13 +1,13 @@
 import React, { useContext } from "react";
 import { themeContext } from "../../../Context";
 import { motion } from "framer-motion";
-import {Link} from 'react-scroll';
+import { Link } from 'react-scroll';
 import TabCarousel from "./TabCarousel";
-import ReactLogo from "../../../img/logo/react-logo.png";
-import AngularLogo from "../../../img/logo/angular.png";
-import VueLogo from "../../../img/logo/vue.png";
-import Shopify from "../../../img/logo/Shopify.png";
-import Wordpress from "../../../img/logo/Wordpress.png";
+import ReactLogo from "../../img/logo/react-logo.png";
+import AngularLogo from "../../img/logo/angular.png";
+import VueLogo from "../../img/logo/vue.png";
+import Shopify from "../../img/logo/Shopify.png";
+import Wordpress from "../../img/logo/Wordpress.png";
 import "./TechSkills.css";
 
 const TechSkills = () => {
@@ -28,7 +28,7 @@ const TechSkills = () => {
             </span>
             <span>On Your Mind</span>
             <Link to="contact" smooth={true} spy={true}>
-              <button className="button tech-button extra" style={{marginTop: "-3rem"}}>Contact</button>
+              <button className="button tech-button extra" style={{ marginTop: "-3rem" }}>Contact</button>
             </Link>
           </div>
           <TabCarousel darkMode={darkMode} />
