@@ -3,7 +3,7 @@ import { themeContext } from "../../../Context";
 import $ from 'jquery';
 import './Hobbies.css';
 import Photo from '../../img/hobby/photo.jpg';
-import Food from '../../img/hobby/Food.png';
+import Food from '../../img/hobby/Food.jpg';
 import Adventurous from '../../img/hobby/Adventurous.jpg';
 import Music from '../../img/hobby/Music.jpg';
 import Code from '../../img/hobby/Code.jpg';

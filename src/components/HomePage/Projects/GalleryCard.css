@@ -90,7 +90,7 @@
 .ReactSlide:nth-child(2)>.imgCard:before {
 	background-image: url(../../img/react/2.png);
 }
-
+ 
 .ReactSlide:nth-child(3)>.imgCard:before {
 	background-image: url(../../img/react/2z.png);
 }
@@ -116,7 +116,7 @@
 }
 
 .ReactSlide:nth-child(9)>.imgCard:before {
-	background-image: url(../../img/react/9.png);
+	background-image: url(../../img/react/9A.png);
 }
 
 .ReactSlide:nth-child(10)>.imgCard:before {
@@ -195,7 +195,7 @@
 }
 
 .PrototypeSlide:nth-child(10)>.imgCard:before {
-	background-image: url(../../img/prototype/10.png);
+	background-image: url(../../img/prototype/10.jpg);
 }
 
 .PrototypeSlide:nth-child(11)>.imgCard:before {
