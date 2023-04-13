@@ -92,7 +92,7 @@
 }
 
 .ReactSlide:nth-child(3)>.imgCard:before {
-	background-image: url(../../img/react/2a.PNG);
+	background-image: url(../../img/react/2a.png);
 }
 
 .ReactSlide:nth-child(4)>.imgCard:before {
@@ -116,7 +116,15 @@
 }
 
 .ReactSlide:nth-child(9)>.imgCard:before {
-	background-image: url(../../img/react/9.PNG);
+	background-image: url(../../img/react/9.png);
+}
+
+.ReactSlide:nth-child(10)>.imgCard:before {
+	background-image: url(../../img/react/10.png);
+}
+
+.ReactSlide:nth-child(11)>.imgCard:before {
+	background-image: url(../../img/react/11.png);
 }
 
 .AngularSlide {
@@ -268,7 +276,7 @@
 }
 
 .MockupSlide:nth-child(16)>.imgCard:before {
-	background-image: url(../../img/ps/16.png);
+	background-image: url(../../img/ps/16.jpg);
 }
 
 .MockupSlide:nth-child(17)>.imgCard:before {

@@ -94,8 +94,24 @@ const Projects = () => {
           <SwiperSlide className="ReactSlide">
             <div className="imgCard">
               <div className="imgContent">
-                <h2 className="title">API Data</h2>
-                <button onClick={() => window.open("https://neelams-practical.netlify.app/")} target="_blank" className="btn">Explore</button>
+                <h2 className="title">API Based Data</h2>
+                <button onClick={() => window.open("https://api-data-react.netlify.app/")} target="_blank" className="btn">Explore</button>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="ReactSlide">
+            <div className="imgCard">
+              <div className="imgContent">
+                <h2 className="title">Responsive Website</h2>
+                <button onClick={() => window.open("https://neelams-react-practical.netlify.app/")} target="_blank" className="btn">Explore</button>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="ReactSlide">
+            <div className="imgCard">
+              <div className="imgContent">
+                <h2 className="title">API Based Data</h2>
+                <button onClick={() => window.open("https://apibased-data.netlify.app/")} target="_blank" className="btn">Explore</button>
               </div>
             </div>
           </SwiperSlide>

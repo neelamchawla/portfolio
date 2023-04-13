@@ -1,17 +1,17 @@
 import { Carousel } from '3d-react-carousal';
 import React, { useContext } from "react";
 import './Gallery.css';
-import Gallery1 from "../../img/company/1.png";
+import Gallery1 from "../../img/company/1.jpg";
 import Gallery2 from "../../img/company/2.jpg";
 import Gallery3 from "../../img/company/3.jpg";
 import Gallery4 from "../../img/company/4.jpg";
 import Gallery5 from "../../img/company/5.jpg";
-import Gallery6 from "../../img/company/6.png";
+import Gallery6 from "../../img/company/6.jpg";
 import Gallery7 from "../../img/company/7.jpg";
 import Gallery8 from "../../img/company/8.jpg";
 import Gallery9 from "../../img/company/9.jpg";
 import Gallery10 from "../../img/company/10.jpg";
-import Gallery11 from "../../img/company/11.jpeg";
+import Gallery11 from "../../img/company/11.jpg";
 import { themeContext } from "../../../Context";
 
 function Gallery() {
@@ -42,7 +42,7 @@ function Gallery() {
       <Carousel
         slides={slides}
         autoplay={true}
-        interval={3000}
+        interval={4000}
         onSlideChange={callback}
       />
     </div>
