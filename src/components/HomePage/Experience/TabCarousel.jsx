@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { TiChevronLeftOutline, TiChevronRightOutline } from 'react-icons/ti';
 
-const CARDS = 4;
+// const CARDS = 4;
 const MAX_VISIBILITY = 2;
 
 const Card = ({ title, content, years, desc }) => (

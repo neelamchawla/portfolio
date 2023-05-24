@@ -18,6 +18,9 @@ import TailwindCss from "../../img/logo/tailwindcss.png";
 import ReactJs from "../../img/logo/react-logo.png";
 import Vue from "../../img/logo/vue.png";
 import Wordpress from "../../img/logo/Wordpress.png";
+import Asana from "../../img/logo/Asana-Logo.png";
+import Trello from "../../img/logo/Trello-Symbol.png";
+import Jira from "../../img/logo/jira.png";
 import './TabCarousel.css';
 
 function TabCarousel({ darkMode }) {
@@ -27,7 +30,7 @@ function TabCarousel({ darkMode }) {
   )
 }
 
-const TAGS = [ReactJs, Angular, Vue, Shopify, Wordpress, Github, Bootstrap, CSS3, FireBase, Gatsby, Heroku, JSX, KendoUI, MongoDB, MUI, MySQL, Netlify, Sass, TailwindCss];
+const TAGS = [ReactJs, Angular, Vue, Shopify, Wordpress, Github, Bootstrap, CSS3, FireBase, Gatsby, Heroku, JSX, KendoUI, MongoDB, MUI, MySQL, Netlify, Sass, TailwindCss, Asana, Trello, Jira ];
 const DURATION = 25000;
 const ROWS = 3;
 const TAGS_PER_ROW = 5;
@@ -66,7 +69,7 @@ const App = ({ darkMode }) => (
       {[...new Array(ROWS)].map((_, i) => (
         <InfiniteLoopSlider key={i} duration={random(DURATION - 5000, DURATION + 37000)} reverse={i % 2}>
           {shuffle(TAGS).slice(0, TAGS_PER_ROW).map(tag => (
-            <Tag darkMode={darkMode} text={tag} key={tag} />
+            <Tag darkMode={darkMode} title={tag} text={tag} key={tag} />
           ))}
         </InfiniteLoopSlider>
       ))}
