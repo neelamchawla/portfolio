@@ -1,0 +1,129 @@
+#filter {
+    width: 500px;
+    background-color: black;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.ul-listofskills,
+.filterElt {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#search {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 3px solid black;
+}
+
+#search input {
+    width: 90%;
+    height: 52px;
+    font-family: 'Athiti', sans-serif;
+    font-size: 2.3em;
+    outline: none;
+}
+
+#search button {
+    width: 10%;
+    background-color: #fcaf1e;
+    font-weight: bold;
+    border: none;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    font-family: 'Athiti', sans-serif;
+    cursor: pointer;
+    font-size: 1.3em;
+}
+
+#search button:hover {
+    background-color: #FEDD31;
+}
+
+/* .okBtn{
+      background-color:#FEDD31;
+    font-weight: bold;
+    border:none;
+      cursor:pointer;
+  }
+  .okBtn:hover{
+      background-color:#B09400;
+  } */
+  
+.li-listofskills:hover {
+    background-color: #000000a1;
+}
+
+.li-listofskills {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    overflow-y: auto;
+    height: 70px;
+    border-bottom: 3px solid black;
+    background-color: #2A2A2A;
+}
+
+.li-listofskills div {
+    /* width:50%; */
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 10px;
+}
+
+.list-text {
+    margin: 0;
+    color: #fcaf1e;
+}
+
+.itemShow {
+    display: flex;
+}
+
+.itemHide {
+    display: none;
+}
+
+.itemDetail {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.itemPresentation {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.li-listofskills button {
+    background-color: #FEDD31;
+    font-weight: bold;
+    border: none;
+    border-right: 1px solid black;
+    border-left: 3px solid black;
+    font-family: 'Athiti', sans-serif;
+    cursor: pointer;
+    font-size: 1.3em;
+    width: 12%;
+}
+
+.li-listofskills button:hover {
+    background-color: #B09400;
+}
+
+.li-listofskills button:disabled {
+    color: black;
+}

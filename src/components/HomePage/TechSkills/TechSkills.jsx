@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { themeContext } from "../../../Context";
 import { motion } from "framer-motion";
 import { Link } from 'react-scroll';
@@ -9,11 +9,30 @@ import VueLogo from "../../img/logo/vue.png";
 import Shopify from "../../img/logo/Shopify.png";
 import Wordpress from "../../img/logo/Wordpress.png";
 import "./TechSkills.css";
+import Filter from "./ListOfTech";
+
+class Popup extends React.Component {
+  render() {
+    return (
+      <div className='popup'>
+        <div className='popup_inner'>
+        {/* <button onClick={this.props.closePopup}>X</button> */}
+        <Filter closePopup={this.props.closePopup} />
+        </div>
+      </div>
+    );
+  }
+}
 
 const TechSkills = () => {
   // context
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
+  
+  const [ShowPopup, setShowPopup] = useState(false);
+  const togglePopup = () => {
+    setShowPopup(!ShowPopup);
+  }
 
   // transition
   return (
@@ -27,9 +46,18 @@ const TechSkills = () => {
               Have A Project
             </span>
             <span>On Your Mind</span>
-            <Link to="contact" smooth={true} spy={true}>
-              <button className="button tech-button extra" style={{ marginTop: "-3rem" }}>Contact</button>
+            <Link >
+            {/* to="contact" smooth={true} spy={true} */}
+              <button className="button tech-button extra alerts-border" onClick={togglePopup} >Show List Of Tech Skills</button>
             </Link>
+            {ShowPopup ?
+              <Popup
+                text='Close Me'
+                closePopup={togglePopup}
+              />
+              : null
+            }
+            
           </div>
           <TabCarousel darkMode={darkMode} />
           <div
