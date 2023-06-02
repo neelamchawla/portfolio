@@ -13,9 +13,9 @@
 .contact-form {
     padding: 0 3rem 0 3rem;
     display: flex;
-    height: 74vh;
+    height: 92vh;
     margin-top: 0rem;
-    padding-top: 7rem;
+    padding-top: 6rem;
 }
 
 .c-right {
@@ -70,6 +70,27 @@ textarea {
 
     .c-right .user {
         width: 16rem;
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+    .contact-img-res {
+        display: none !important;
+    }
+
+    .w-left {
+        margin-left: -3em;
+        padding-right: 1em;
+    }
+
+    .contact-form {
+        padding: 0 3rem 0 3rem;
+        display: flex;
+        height: 80vh;
+        margin-left: -1em;
+        margin-top: 0rem;
+        padding-top: 7rem;
     }
 
 }

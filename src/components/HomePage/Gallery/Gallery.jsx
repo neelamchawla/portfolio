@@ -38,7 +38,7 @@ function Gallery() {
 
   return (
     <div className='gallery' id="gallery">
-      <h4 className='galleryHead'>Professional Journey</h4>
+      <h4 style={{ color: darkMode ? '' : 'var(--yellow)' }} className='galleryHead'>Professional Journey</h4>
       <Carousel
         slides={slides}
         autoplay={true}

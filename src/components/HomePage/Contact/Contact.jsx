@@ -9,7 +9,7 @@ const Contact = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   const form = useRef();
-  const [done, setDone] = useState(false);
+  const [, setDone] = useState(false);
   const [Name, setName] = useState("");
   const [Email, setEmail] = useState("");
   const [Msg, setMsg] = useState("");
@@ -63,15 +63,17 @@ const Contact = () => {
   return (
     <div className="contact-form" id="contact">
 
-      <div style={{
-        backgroundImage: `url(${Map})`,
-        height: "100vh",
-        width: "100%",
-        position: "absolute",
-        opacity: "0.3",
-        marginLeft: "-9%",
-        marginTop: "-3%",
-      }}></div>
+      <div
+        className="contact-img-res"
+        style={{
+          backgroundImage: `url(${Map})`,
+          height: "100vh",
+          width: "100%",
+          position: "absolute",
+          opacity: "0.3",
+          marginLeft: "-9%",
+          marginTop: "-3%",
+        }}></div>
 
       {/* left side */}
       <div className="w-left">

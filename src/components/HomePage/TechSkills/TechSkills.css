@@ -1,10 +1,10 @@
 .works {
   padding: 0 3rem 0 3rem;
   display: flex;
-  height: 55vh;
+  height: 82vh;
   margin-top: 7rem;
   margin-left: 1%;
-  padding-top: 9rem;
+  padding-top: 8rem;
   align-items: center;
   margin-bottom: 8rem;
 }
@@ -60,7 +60,11 @@
   z-index: 0;
 }
 
-@keyframes blink { 50% { border-color:#fff ; }  }
+@keyframes blink {
+  50% {
+    border-color: #fff;
+  }
+}
 
 /* right side */
 .w-right {
@@ -153,31 +157,6 @@
   box-shadow: 1px -3px 28px #fdc50f;
 }
 
-@media screen and (max-width: 480px) {
-  .works {
-    flex-direction: column;
-    height: 55rem;
-    padding: 0;
-    gap: 5rem;
-  }
-
-  .w-right {
-    display: flex;
-    align-items: flex-start;
-    justify-content: start;
-    transform: scale(0.7);
-  }
-
-  .w-mainCircle {
-    position: static;
-  }
-
-  .w-backCircle {
-    left: 8rem !important;
-  }
-
-}
-
 .my-skills {
   padding-top: 30px;
   padding-bottom: 50px;
@@ -257,6 +236,7 @@
   background-color: #000000c2;
   z-index: 10;
 }
+
 .popup_inner {
   position: absolute;
   left: 25%;
@@ -267,4 +247,44 @@
   height: 70vh;
   overflow-y: auto;
   background: white;
+}
+
+@media screen and (max-width: 992px) {
+  .works {
+    flex-direction: column;
+    height: 51rem;
+    margin-left: 30%;
+    margin-top: 8rem;
+    padding-top: 8rem;
+    gap: 5rem;
+  }
+
+  .tech-align {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .work>div span:nth-child(1) {
+    margin-top: 1em;
+  }
+
+  .tech-btn {
+    position: absolute;
+  }
+
+  .w-right {
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    transform: scale(0.7);
+  }
+
+  .w-mainCircle {
+    position: static;
+  }
+
+  .w-backCircle {
+    left: 8rem !important;
+  }
+
 }

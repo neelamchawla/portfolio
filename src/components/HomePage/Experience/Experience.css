@@ -3,8 +3,8 @@
     align-items: center;
     justify-content: center;
     gap: 5rem;
-    height: 15vh;
-    padding-top: 18rem;
+    height: 69vh;
+    padding-top: 16rem;
     margin-top: 12rem;
     margin-bottom: 8rem;
     /* darkmode */
@@ -89,8 +89,24 @@
     transform: translateX(100%) translatey(-50%);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     .experience {
         transform: scale(0.7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 70vh !important;
+        padding-top: 24em;
+        margin-top: 25rem;
+    }
+
+    .carousel {
+        position: relative;
+        width: 14em;
+        height: 33em;
+    }
+
+    .card-text {
+        font-size: 17px;
     }
 }

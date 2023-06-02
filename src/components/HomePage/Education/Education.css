@@ -1,6 +1,6 @@
 .education {
   display: flex;
-  height: 120vh;
+  height: 130vh;
   margin-top: -13rem;
   padding-top: 6rem;
 }
@@ -42,4 +42,21 @@
 /* Icon container's border */
 .vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--work .vertical-timeline-element-icon {
   box-shadow: 0 0 0 4px #1976d2, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05) !important;
+}
+
+@media screen and (max-width: 768px) {
+  .vertical-timeline {
+    margin-left: 3.6em !important;
+  }
+
+  .main {
+    margin-left: -50%;
+  }
+
+  .education {
+    height: 95vh;
+    margin-top: -13rem;
+    padding-top: 6rem;
+  }
+
 }

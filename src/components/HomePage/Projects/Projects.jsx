@@ -17,6 +17,7 @@ const Projects = () => {
     <div className="portfolio" id="portfolio">
       {/* heading */}
       <h4 style={{ color: darkMode ? 'white' : '' }}>Recent Projects</h4>
+      {/* react */}
       <>
         <img src={ReactLogo} className="rotates" alt="reactlogo" />
         <span style={{ color: "#61DBFB" }}>React</span>
@@ -117,8 +118,9 @@ const Projects = () => {
           </SwiperSlide>
         </Swiper>
       </>
+      {/* angular */}
       <>
-        <img src={AngularLogo} className="logo" />
+        <img src={AngularLogo} className="logo" alt="AngularLogo" />
         <span style={{ color: "#dd1b16" }}>Angular</span>
         {/* slider */}
         <Swiper
@@ -139,14 +141,15 @@ const Projects = () => {
             <div className="imgCard">
               <div className="imgContent">
                 <h2 className="title">Road Trip</h2>
-                <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/2.bd87e7da4479cf917511.png")} target="_blank" className="btn">Explore</button>
+                <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/2.f36753cc1ff83dd808e7.png")} target="_blank" className="btn">Explore</button>
               </div>
             </div>
           </SwiperSlide>
         </Swiper>
       </>
+      {/* vue */}
       <>
-        <img src={VueLogo} className="logo" />
+        <img src={VueLogo} className="logo" alt="vue" />
         <span style={{ color: "#42b883" }}>Vue</span>
         {/* slider */}
         <Swiper
@@ -175,7 +178,7 @@ const Projects = () => {
       </>
       {/* Prototype */}
       <>
-        <img src={PrototypeLogo} className="logo prologo" />
+        <img src={PrototypeLogo} className="logo prologo" alt="prototype" />
         <span>Prototype Designs</span>
         {/* slider */}
         <Swiper
@@ -188,7 +191,7 @@ const Projects = () => {
             <div className="imgCard">
               <div className="imgContent">
                 <h2 className="title">Twitter Clone</h2>
-                <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/1.c18de2f79b9606ccc8de.png")} target="_blank" className="btn">Explore</button>
+                <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/1.6540223987cf3fcab4e2.png")} target="_blank" className="btn">Explore</button>
               </div>
             </div>
           </SwiperSlide>
@@ -196,7 +199,7 @@ const Projects = () => {
             <div className="imgCard">
               <div className="imgContent">
                 <h2 className="title">Instagram Clone</h2>
-                <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/2.007d3b39924b96103a04.png")} target="_blank" className="btn">Explore</button>
+                <button onClick={() => window.open("	https://neelams-portfolio.netlify.app/static/media/2.dee9ea58677ca6537feb.png")} target="_blank" className="btn">Explore</button>
               </div>
             </div>
           </SwiperSlide>
@@ -292,7 +295,7 @@ const Projects = () => {
       </>
       {/* MockupLogo */}
       <>
-        <img src={MockupLogo} className="logo prologo" />
+        <img src={MockupLogo} className="logo prologo" alt="mockup" />
         <span>Mockup Designs</span>
         {/* slider */}
         <Swiper
@@ -305,7 +308,7 @@ const Projects = () => {
             <div className="imgCard">
               <div className="imgContent">
                 <h2 className="title">Photoshop - Mesh Tool Example</h2>
-                <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/1.6d608939ec97586f7fb5.png")} target="_blank" className="btn">Explore</button>
+                <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/1.bd60546235a2e534a3b9.png")} target="_blank" className="btn">Explore</button>
               </div>
             </div>
           </SwiperSlide>
@@ -313,7 +316,7 @@ const Projects = () => {
             <div className="imgCard">
               <div className="imgContent">
                 <h2 className="title">Figma - Glassmorphism</h2>
-                <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/2.1a76b7d030d539e4dac2.png")} target="_blank" className="btn">Explore</button>
+                <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/2.6b350e084069486f3e78.png")} target="_blank" className="btn">Explore</button>
               </div>
             </div>
           </SwiperSlide>
@@ -321,7 +324,7 @@ const Projects = () => {
             <div className="imgCard">
               <div className="imgContent">
                 <h2 className="title">Photoshop - Book Mockup</h2>
-                <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/3.0363e689d5a4c04ba83f.png")} target="_blank" className="btn">Explore</button>
+                <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/3.f8211038d869ae702ce2.png")} target="_blank" className="btn">Explore</button>
               </div>
             </div>
           </SwiperSlide>
@@ -329,7 +332,7 @@ const Projects = () => {
             <div className="imgCard">
               <div className="imgContent">
                 <h2 className="title">Photoshop - Book Mockup</h2>
-                <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/4.7e4ecc1e64df57c78150.png")} target="_blank" className="btn">Explore</button>
+                <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/4.0346024b4d4286baa9c2.png")} target="_blank" className="btn">Explore</button>
               </div>
             </div>
           </SwiperSlide>
@@ -409,7 +412,7 @@ const Projects = () => {
             <div className="imgCard">
               <div className="imgContent">
                 <h2 className="title">Photoshop - YouTube Thumbnail Design</h2>
-                <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/12.195c4f175c00e3def30f.png")} target="_blank" className="btn">Explore</button>
+                <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/14.195c4f175c00e3def30f.png")} target="_blank" className="btn">Explore</button>
               </div>
             </div>
           </SwiperSlide>
@@ -417,7 +420,7 @@ const Projects = () => {
             <div className="imgCard">
               <div className="imgContent">
                 <h2 className="title">InDesign - Magazine Design</h2>
-                <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/13.d43ebbcf4723fc12db97.png")} target="_blank" className="btn">Explore</button>
+                <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/15.d43ebbcf4723fc12db97.png")} target="_blank" className="btn">Explore</button>
               </div>
             </div>
           </SwiperSlide>
@@ -425,7 +428,7 @@ const Projects = () => {
             <div className="imgCard">
               <div className="imgContent">
                 <h2 className="title">Illustrator - Dual Tone Design</h2>
-                <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/14.8727de5c72acaf00b63b.png")} target="_blank" className="btn">Explore</button>
+                <button onClick={() => window.open("	https://neelams-portfolio.netlify.app/static/media/16.d6f4d2b182fd72855fd5.jpg")} target="_blank" className="btn">Explore</button>
               </div>
             </div>
           </SwiperSlide>
@@ -433,7 +436,7 @@ const Projects = () => {
             <div className="imgCard">
               <div className="imgContent">
                 <h2 className="title">Instagram Ads</h2>
-                <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/15.1ff6a258d1f784de5e3d.png")} target="_blank" className="btn">Explore</button>
+                <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/17.1ff6a258d1f784de5e3d.png")} target="_blank" className="btn">Explore</button>
               </div>
             </div>
           </SwiperSlide>
@@ -441,7 +444,7 @@ const Projects = () => {
             <div className="imgCard">
               <div className="imgContent">
                 <h2 className="title">Illustrator - Letter head & Card</h2>
-                <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/16.3eac4d27c5cd4c7e2183.png")} target="_blank" className="btn">Explore</button>
+                <button onClick={() => window.open("	https://neelams-portfolio.netlify.app/static/media/18.3eac4d27c5cd4c7e2183.png")} target="_blank" className="btn">Explore</button>
               </div>
             </div>
           </SwiperSlide>

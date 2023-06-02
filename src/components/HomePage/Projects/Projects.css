@@ -79,3 +79,14 @@
     transform: rotate(360deg);
   }
 }
+
+@media screen and (max-width: 992px) {
+  .portfolio {
+    height: 285vh;
+    padding-top: 0rem;
+  }
+
+  .swiper-slide {
+    width: 19em !important;
+  }
+}

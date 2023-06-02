@@ -18,7 +18,7 @@ class Filter extends React.Component {
 				{ id: 8, item: 'Figma / AxureRP / WebFlow - (Design Tool)', display: true },
 				{ id: 9, item: 'Adobe - (XD, PhotoShop, Adobe Illustrator) - (Graphic Tools)', display: true },
 				{ id: 10, item: 'Basic Knowledge of Grunt - (Testing Tool)', display: true },
-				{ id: 11, item: 'Jira, Asana, Trello, Agile - (Project Management)', display: true },
+				{ id: 11, item: 'Jira, Asana, Trello, Agile, Zoho - (Project Management)', display: true },
 			],
 			filterShow: false,
 			filter: ''

@@ -11,13 +11,13 @@ import Wordpress from "../../img/logo/Wordpress.png";
 import "./TechSkills.css";
 import Filter from "./ListOfTech";
 
-class Popup extends React.Component {
+class Popup extends React.Component {
   render() {
     return (
       <div className='popup'>
         <div className='popup_inner'>
-        {/* <button onClick={this.props.closePopup}>X</button> */}
-        <Filter closePopup={this.props.closePopup} />
+          {/* <button onClick={this.props.closePopup}>X</button> */}
+          <Filter closePopup={this.props.closePopup} />
         </div>
       </div>
     );
@@ -28,7 +28,7 @@ const TechSkills = () => {
   // context
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
-  
+
   const [ShowPopup, setShowPopup] = useState(false);
   const togglePopup = () => {
     setShowPopup(!ShowPopup);
@@ -41,13 +41,13 @@ const TechSkills = () => {
       <div className="w-left">
         <div className="work">
           {/* dark Mode */}
-          <div>
+          <div className="tech-align">
             <span style={{ color: darkMode ? "white" : "" }}>
               Have A Project
             </span>
             <span>On Your Mind</span>
-            <Link >
-            {/* to="contact" smooth={true} spy={true} */}
+            <Link className="tech-btn">
+              {/* to="contact" smooth={true} spy={true} */}
               <button className="button tech-button extra alerts-border" onClick={togglePopup} >Show List Of Tech Skills</button>
             </Link>
             {ShowPopup ?
@@ -57,7 +57,7 @@ const TechSkills = () => {
               />
               : null
             }
-            
+
           </div>
           <TabCarousel darkMode={darkMode} />
           <div

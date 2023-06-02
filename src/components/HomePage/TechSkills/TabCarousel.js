@@ -21,6 +21,8 @@ import Wordpress from "../../img/logo/Wordpress.png";
 import Asana from "../../img/logo/Asana-Logo.png";
 import Trello from "../../img/logo/Trello-Symbol.png";
 import Jira from "../../img/logo/jira.png";
+import Figma from "../../img/logo/Figma.svg";
+import Zoho from "../../img/logo/Zoho.png";
 import './TabCarousel.css';
 
 function TabCarousel({ darkMode }) {
@@ -30,7 +32,7 @@ function TabCarousel({ darkMode }) {
   )
 }
 
-const TAGS = [ReactJs, Angular, Vue, Shopify, Wordpress, Github, Bootstrap, CSS3, FireBase, Gatsby, Heroku, JSX, KendoUI, MongoDB, MUI, MySQL, Netlify, Sass, TailwindCss, Asana, Trello, Jira ];
+const TAGS = [ReactJs, Angular, Vue, Shopify, Wordpress, Github, Bootstrap, CSS3, FireBase, Gatsby, Heroku, JSX, KendoUI, MongoDB, MUI, MySQL, Netlify, Sass, TailwindCss, Asana, Trello, Jira, Figma, Zoho];
 const DURATION = 25000;
 const ROWS = 3;
 const TAGS_PER_ROW = 5;
