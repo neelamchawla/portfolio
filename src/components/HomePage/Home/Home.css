@@ -50,7 +50,7 @@
 
 .i-name> :nth-child(3) {
   font-weight: 100;
-  width: 25em;
+  width: 80%;
   font-size: 25px;
   color: #8b38aa;
   margin-top: 10px;
@@ -149,6 +149,10 @@
     flex-direction: column;
     gap: 7rem;
     height: 70rem;
+  }
+
+  .i-name> :nth-child(5) {
+    line-height: 50px;
   }
 
   .i-right {

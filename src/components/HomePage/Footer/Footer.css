@@ -109,6 +109,10 @@ a {
   .f-content {
     margin-top: -2rem !important;
   }
+
+  .Copyright {
+    left: 9%;
+  }
 }
 
 @media screen and (max-width: 1100px) {

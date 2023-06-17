@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import "./Services.css";
 import Card from "./Card/Card";
 import HeartEmoji from "../../img/heartemoji.png";
@@ -8,6 +8,27 @@ import { themeContext } from "../../../Context";
 import { motion } from "framer-motion";
 import Resume from './Resume1.pdf';
 import { saveAs } from "file-saver";
+import "../../../../node_modules/video-react/dist/video-react.css";
+import { Player } from 'video-react';
+import VideoResume from "../../img/Video.mp4";
+import Thumbnail from "../../img/thumbnail.png";
+
+class Popup extends React.Component {
+  render() {
+    return (
+      <div className='popup_video'>
+        <div className='popup_inner_video'>
+          <button onClick={this.props.closePopup}>X</button>
+        </div>
+        <Player
+          playsInline
+          poster={Thumbnail}
+          src={VideoResume}
+        />
+      </div>
+    );
+  }
+}
 
 const Services = () => {
   // context
@@ -27,6 +48,11 @@ const Services = () => {
     );
   };
 
+  const [ShowPopup, setShowPopup] = useState(false);
+  const togglePopup = () => {
+    setShowPopup(!ShowPopup);
+  }
+
   return (
     <div className="services" id="services">
       {/* left side */}
@@ -40,7 +66,44 @@ const Services = () => {
         <button onClick={saveFile} className="button s-button" style={{ marginTop: "4rem" }}>
           Download CV
         </button>
-        {/* </a> */}
+
+        <>
+          <button className="c-h-button c-h-button--gooey" onClick={togglePopup}>
+            {" "}
+            Video CV
+            <div className="c-h-button__blobs">
+              <div />
+              <div />
+              <div />
+            </div>
+          </button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            version="1.1"
+            style={{ display: "block", height: 0, width: 0 }}
+          >
+            <defs>
+              <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" stdDeviation={10} result="blur" />
+                <feColorMatrix
+                  in="blur"
+                  mode="matrix"
+                  values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                  result="goo"
+                />
+                <feBlend in="SourceGraphic" in2="goo" />
+              </filter>
+            </defs>
+          </svg>
+
+          {ShowPopup ?
+            <Popup
+              text='Close Me'
+              closePopup={togglePopup}
+            />
+            : null
+          }
+        </>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
       {/* right */}

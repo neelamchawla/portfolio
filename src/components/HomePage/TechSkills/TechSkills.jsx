@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { themeContext } from "../../../Context";
 import { motion } from "framer-motion";
-import { Link } from 'react-scroll';
+// import { Link } from 'react-scroll';
 import TabCarousel from "./TabCarousel";
 import ReactLogo from "../../img/logo/react-logo.png";
 import AngularLogo from "../../img/logo/angular.png";
@@ -46,10 +46,10 @@ const TechSkills = () => {
               Have A Project
             </span>
             <span>On Your Mind</span>
-            <Link className="tech-btn">
-              {/* to="contact" smooth={true} spy={true} */}
-              <button className="button tech-button extra alerts-border" onClick={togglePopup} >Show List Of Tech Skills</button>
-            </Link>
+            {/* <Link className="tech-btn"> */}
+            {/* to="contact" smooth={true} spy={true} */}
+            <button className="button tech-button extra alerts-border tech-btn" onClick={togglePopup} >Show List Of Tech Skills</button>
+            {/* </Link> */}
             {ShowPopup ?
               <Popup
                 text='Close Me'

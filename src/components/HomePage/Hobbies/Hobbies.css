@@ -35,6 +35,10 @@
   .options .option:nth-child(5) {
     display: none;
   }
+
+  .Hobby {
+    height: 50vh;
+  }
 }
 
 @media screen and (max-width: 638px) {

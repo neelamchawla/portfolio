@@ -262,6 +262,16 @@
   .tech-align {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .extra {
+    margin-left: 3%;
+  }
+
+  .outerBox {
+    margin-left: 10%;
   }
 
   .work>div span:nth-child(1) {

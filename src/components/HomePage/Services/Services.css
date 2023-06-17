@@ -66,6 +66,131 @@
   left: -18rem;
 }
 
+/* ================ video ================= */
+
+.popup_video {
+  position: fixed;
+  width: 50%;
+  height: 85%;
+  top: 14em;
+  left: 0;
+  right: 0;
+  bottom: 10em;
+  margin: auto;
+  background-color: #000000c2;
+  z-index: 10;
+}
+
+.popup_inner_video {
+  position: absolute;
+  left: 1em;
+  top: -1em;
+  bottom: 9%;
+  z-index: 10;
+  margin: auto;
+  height: 70vh;
+  overflow-y: auto;
+}
+
+.c-h-button {
+  color: #000;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 0.9em 1.6em;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.c-h-button--gooey {
+  color: #06c8d9;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 4px solid #06c8d9;
+  border-radius: 0;
+  position: relative;
+  transition: all 700ms ease;
+  width: 10em;
+  margin-top: 2em;
+  border-radius: 10px;
+  z-index: 10000;
+}
+
+.c-h-button--gooey .c-h-button__blobs {
+  height: 100%;
+  filter: url(#goo);
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: -3px;
+  right: -1px;
+  z-index: -1;
+}
+
+.c-h-button--gooey .c-h-button__blobs div {
+  background-color: #06c8d9;
+  width: 34%;
+  height: 100%;
+  border-radius: 100%;
+  position: absolute;
+  transform: scale(1.4) translateY(125%) translateZ(0);
+  transition: all 700ms ease;
+}
+
+.c-h-button--gooey .c-h-button__blobs div:nth-child(1) {
+  left: -5%;
+}
+
+.c-h-button--gooey .c-h-button__blobs div:nth-child(2) {
+  left: 30%;
+  transition-delay: 60ms;
+}
+
+.c-h-button--gooey .c-h-button__blobs div:nth-child(3) {
+  left: 66%;
+  transition-delay: 25ms;
+}
+
+.c-h-button--gooey:hover {
+  color: #fff;
+}
+
+.c-h-button--gooey:hover .c-h-button__blobs div {
+  transform: scale(1.4) translateY(0) translateZ(0);
+}
+
+.video-react .video-react-video {
+  width: 100% !important;
+  height: 80% !important;
+}
+
+.video-react {
+  background-color: #00000000 !important;
+}
+
+.video-react .video-react-poster {
+  height: 80% !important;
+}
+
+.video-react .video-react-control-bar {
+  width: 81% !important;
+  bottom: 5em !important;
+  left: 3.6em !important;
+  height: 3em !important;
+}
+
+.video-react .video-react-big-play-button {
+  top: 38% !important;
+  left: 45% !important;
+}
+
+
+
 @media screen and (max-width: 1100px) {
   .services {
     margin-top: 0;
@@ -85,4 +210,20 @@
   .cards>* {
     position: static;
   }
+
+  .popup_inner_video {
+    top: -4em;
+  }
+
+  .video-react .video-react-big-play-button {
+    top: 33% !important;
+    left: 36% !important;
+}
+
+.video-react .video-react-control-bar {
+  width: 124% !important;
+  bottom: 1em !important;
+  left: -2em !important;
+  height: 3em !important;
+}
 }

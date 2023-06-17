@@ -80,7 +80,7 @@ textarea {
     }
 
     .w-left {
-        margin-left: -3em;
+        margin-left: 0em;
         padding-right: 1em;
     }
 
@@ -93,4 +93,12 @@ textarea {
         padding-top: 7rem;
     }
 
+}
+
+@media screen and (max-width: 718px) {
+
+.contact-form {
+    height: 60vh;
+    padding-top: 15rem;
+}
 }
