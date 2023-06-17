@@ -97,8 +97,8 @@ textarea {
 
 @media screen and (max-width: 718px) {
 
-.contact-form {
-    height: 60vh;
-    padding-top: 15rem;
-}
+    .contact-form {
+        height: 60vh;
+        padding-top: 15rem;
+    }
 }

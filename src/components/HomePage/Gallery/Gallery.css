@@ -20,7 +20,7 @@
 }
 
 @media screen and (max-width: 718px) {
-.gallery {
-    height: 50vh;
-}
+    .gallery {
+        height: 50vh;
+    }
 }
