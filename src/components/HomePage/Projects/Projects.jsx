@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { themeContext } from "../../../Context";
 import { Swiper, SwiperSlide } from "swiper/react"
+import ViteLogo from "../../img/logo/vite.png";
 import ReactLogo from "../../img/logo/react-logo.png";
 import AngularLogo from "../../img/logo/angular.png";
 import VueLogo from "../../img/logo/vue.png";
@@ -16,7 +17,52 @@ const Projects = () => {
   return (
     <div className="portfolio" id="portfolio">
       {/* heading */}
-      <h4 style={{ color: darkMode ? 'white' : '' }}>Recent Projects</h4>
+      <h4 style={{ color: darkMode ? 'white' : '' }}>Projects</h4>
+      {/* vite react */}
+      <>
+        <img src={ViteLogo} className="logo" alt="ViteLogo" />
+        <span style={{ color: "#fb61e6" }}>Vite + React + Ts</span>
+        {/* slider */}
+        <Swiper
+          spaceBetween={30}
+          slidesPerView={3}
+          grabCursor={true}
+          className="portfolio-slider"
+        >
+          <SwiperSlide className="ViteSlide">
+            <div className="imgCard">
+              <div className="imgContent">
+                <h2 className="title">3D Product</h2>
+                <button onClick={() => window.open("https://threejs-product.netlify.app/")} target="_blank" className="btn">Explore</button>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="ViteSlide">
+            <div className="imgCard">
+              <div className="imgContent">
+                <h2 className="title">Fitness Pro</h2>
+                <button onClick={() => window.open("https://fitness-pro.pages.dev/")} target="_blank" className="btn">Explore</button>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="ViteSlide">
+            <div className="imgCard">
+              <div className="imgContent">
+                <h2 className="title">Redux CRUD</h2>
+                <button onClick={() => window.open("https://react-ts-project.netlify.app")} target="_blank" className="btn">Explore</button>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="ViteSlide">
+            <div className="imgCard">
+              <div className="imgContent">
+                <h2 className="title">Charts</h2>
+                <button onClick={() => window.open("#")} target="_blank" className="btn">Explore</button>
+              </div>
+            </div>
+          </SwiperSlide>
+        </Swiper>
+      </>
       {/* react */}
       <>
         <img src={ReactLogo} className="rotates" alt="reactlogo" />
@@ -190,7 +236,7 @@ const Projects = () => {
           <SwiperSlide className="PrototypeSlide">
             <div className="imgCard">
               <div className="imgContent">
-                <h2 className="title">Twitter Clone</h2>
+                <h2 className="title" style={{backgroundColor: "black", padding: "0.5em"}}>Twitter Clone</h2>
                 <button onClick={() => window.open("https://neelams-portfolio.netlify.app/static/media/1.6540223987cf3fcab4e2.png")} target="_blank" className="btn">Explore</button>
               </div>
             </div>

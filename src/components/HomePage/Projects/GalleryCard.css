@@ -78,6 +78,27 @@
 	transition: transform calc(var(--d) * 2) var(--e);
 }
 
+.ViteSlide {
+	color: #fb61e6;
+	text-shadow: 0 2px 5px rgb(0 0 0);
+}
+
+.ViteSlide:nth-child(1)>.imgCard:before {
+	background-image: url(../../img/vite/threejs-project.png);
+}
+
+.ViteSlide:nth-child(2)>.imgCard:before {
+	background-image: url(../../img/vite/Vite.png);
+}
+
+.ViteSlide:nth-child(3)>.imgCard:before {
+	background-image: url(../../img/vite/1.png);
+}
+
+.ViteSlide:nth-child(4)>.imgCard:before {
+	background-image: url(../../img/vite/2.png);
+}
+
 .ReactSlide {
 	color: #61dbfb;
 	text-shadow: 0 2px 5px rgb(0 0 0);
@@ -154,7 +175,7 @@
 }
 
 .PrototypeSlide {
-	color: #efce2b;
+	color: #b7b7b7;
 	text-shadow: 0 2px 5px rgb(0 0 0);
 }
 
@@ -211,7 +232,7 @@
 }
 
 .MockupSlide {
-	color: #b7b7b7;
+	color: #efce2b;
 	text-shadow: 0 2px 5px rgb(0 0 0);
 }
 

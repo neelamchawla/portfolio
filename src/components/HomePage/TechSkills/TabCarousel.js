@@ -2,6 +2,7 @@ import React from 'react';
 import Angular from "../../img/logo/angular.png";
 import Bootstrap from "../../img/logo/bootstrap.png";
 import CSS3 from "../../img/logo/css3.png";
+import Cloudflare from "../../img/logo/Cloudflare.png";
 import FireBase from "../../img/logo/firebase.png";
 import Gatsby from "../../img/logo/gatsby.png";
 import Github from "../../img/logo/github.png";
@@ -32,7 +33,7 @@ function TabCarousel({ darkMode }) {
   )
 }
 
-const TAGS = [ReactJs, Angular, Vue, Shopify, Wordpress, Github, Bootstrap, CSS3, FireBase, Gatsby, Heroku, JSX, KendoUI, MongoDB, MUI, MySQL, Netlify, Sass, TailwindCss, Asana, Trello, Jira, Figma, Zoho];
+const TAGS = [ReactJs, Angular, Vue, Shopify, Wordpress, Github, Bootstrap, CSS3, Cloudflare, FireBase, Gatsby, Heroku, JSX, KendoUI, MongoDB, MUI, MySQL, Netlify, Sass, TailwindCss, Asana, Trello, Jira, Figma, Zoho];
 const DURATION = 25000;
 const ROWS = 3;
 const TAGS_PER_ROW = 5;
