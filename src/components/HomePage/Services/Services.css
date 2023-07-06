@@ -117,7 +117,7 @@
   width: 10em;
   margin-top: 2em;
   border-radius: 10px;
-  z-index: 10000;
+  z-index: 1000;
 }
 
 .c-h-button--gooey .c-h-button__blobs {
@@ -225,5 +225,11 @@
     bottom: 1em !important;
     left: -2em !important;
     height: 3em !important;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .services {
+    height: 95rem;
   }
 }

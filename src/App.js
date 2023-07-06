@@ -53,6 +53,7 @@ function App() {
       <img src={Wave5} alt="wave" className="wave5" style={{ display: darkMode ? "none" : "" }} />
       <Contact />
       <Footer />
+
     </div>
   );
 }

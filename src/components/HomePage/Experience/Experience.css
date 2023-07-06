@@ -95,8 +95,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 64vh !important;
-        padding-top: 24em;
+        height: 60vh;
+        padding-top: 29em;
         margin-top: 25rem;
     }
 
@@ -104,6 +104,7 @@
         position: relative;
         width: 14em;
         height: 33em;
+        margin-top: 8em;
     }
 
     .card-text {

@@ -68,6 +68,9 @@ a {
   background-color: #0000ff12;
   padding: 1em;
   width: -webkit-fill-available;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 @media screen and (max-width: 480px) {
@@ -113,6 +116,21 @@ a {
   .Copyright {
     left: 9%;
   }
+}
+
+@media screen and (max-width: 780px) {
+  .footer {
+    display: flex;
+    align-items: center;
+    /* margin: 0.5rem -3.5rem; */
+    position: relative;
+    margin-top: 0rem;
+    flex-direction: row;
+    /* height: 12em; */
+}
+.footer-wave {
+  min-height: 18em;
+}
 }
 
 @media screen and (max-width: 1100px) {

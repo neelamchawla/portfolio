@@ -253,9 +253,9 @@
   .works {
     flex-direction: column;
     /* height: 51rem; */
-    height: 65rem;
+    height: 30rem;
     margin-left: 30%;
-    margin-top: 8rem;
+    margin-top: 18rem;
     padding-top: 8rem;
     gap: 5rem;
   }

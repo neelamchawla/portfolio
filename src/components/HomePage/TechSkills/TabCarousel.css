@@ -59,3 +59,9 @@
         transform: translateX(-50%);
     }
 }
+
+@media screen and (max-width: 780px) {
+    .w-right {
+      display: none !important;
+    }
+  }

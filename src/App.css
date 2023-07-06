@@ -117,3 +117,102 @@ body {
 
   }
 }
+
+
+
+@media screen and (max-width: 718px) {
+
+  .modal {
+    font-size: 10px;
+    padding: 2px 2px !important;
+  }
+
+  .modal:before {
+    display: none;
+  }
+
+  .bottom-block {
+    padding: 4px !important;
+  }
+}
+
+.close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 7px 10px;
+  line-height: 20px;
+  right: -22px;
+  top: -20px;
+  font-size: 24px;
+  background: #7e7e7e;
+  border-radius: 18px;
+  border: 3px solid #242424;
+}
+
+.modal {
+  font-size: 18px;
+  text-align: center;
+  padding: 10px 5px;
+  margin: auto;
+  position: relative;
+  background: #0169f9;
+  color: #fff;
+  padding: 24px 150px 24px 24px;
+  border-radius: 8px 8px 0 0;
+}
+
+.modal:before {
+  content: "";
+  bottom: -60px;
+  right: -10px;
+  position: absolute;
+  background-image: url(../src/components/img/rocket.png);
+  width: 159px;
+  height: 159px;
+  background-size: 159px;
+  background-repeat: no-repeat;
+}
+
+.header-modal {
+  margin-top: 4px;
+  font-weight: 800;
+  font-family: "Nunito", sans-serif;
+}
+
+.bottom-block {
+  border-radius: 0 0 8px 8px;
+  color: #000;
+  background: #fff;
+  padding: 24px;
+}
+
+.bottom-block>p {
+  font-family: "Nunito Sans", sans-serif;
+  margin: 0;
+  line-height: 22px;
+  font-size: 14px;
+  z-index: 2;
+  position: relative;
+}
+
+.block-footer {
+  margin-top: 25px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.block-footer>a>button {
+  height: 50px;
+  padding: 0 20px;
+  font-weight: bold;
+  background-color: #1a73e8;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: "Nunito Sans", sans-serif;
+  text-transform: uppercase;
+  border-radius: 5px;
+}

@@ -21,6 +21,11 @@
 
 @media screen and (max-width: 718px) {
     .gallery {
-        height: 50vh;
+        height: 70vh;
+    }
+
+    .galleryPic {
+        min-height: 11em;
+        margin-top: 4em;
     }
 }

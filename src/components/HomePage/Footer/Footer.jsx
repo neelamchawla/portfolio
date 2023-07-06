@@ -6,6 +6,7 @@ import Gitub from "@iconscout/react-unicons/icons/uil-github";
 import Wave from "../../img/wave/wave.png";
 import QRCode from "../../img/QRcode.png";
 import "./Footer.css";
+import PopupBox from "../Popup";
 
 const Footer = () => {
 
@@ -23,11 +24,12 @@ const Footer = () => {
 
   return (
     <div className="footer">
-      <img src={Wave} alt="bg" style={{ width: "100%" }} />
+      <img className="footer-wave" src={Wave} alt="bg" style={{ width: "100%" }} />
       <div className="f-content">
         <a href="mailto:neelam.projects@gmail.com">
           neelam.projects@gmail.com
         </a>
+
         <div className="f-icons">
           <Insta className="insta" color="white" size={"3rem"} />
           <Facebook className="fb" color="white" size={"3rem"} />
@@ -55,6 +57,7 @@ const Footer = () => {
 
       <div className="Copyright">
         Copyright © {today.getFullYear()} Neelam Chawla, All Rights Reserved
+        <PopupBox />
       </div>
     </div>
   );

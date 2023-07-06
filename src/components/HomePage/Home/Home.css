@@ -170,3 +170,13 @@
     ;
   }
 }
+
+@media screen and (max-width: 780px) {
+  .i-right {
+    display: none;
+  }
+
+  .Home {
+    height: 45rem;
+}
+}

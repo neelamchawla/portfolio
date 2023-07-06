@@ -48,7 +48,7 @@
     width: 8rem;
     height: 2rem;
     margin-top: 1rem;
-    z-index: 1000;
+    z-index: 999;
 }
 
 textarea {
@@ -70,6 +70,12 @@ textarea {
 
     .c-right .user {
         width: 16rem;
+    }
+
+    .w-left {
+        margin-left: 0em !important;
+        padding-right: 0em !important;
+        margin-bottom: -5em;
     }
 
 }
@@ -98,7 +104,14 @@ textarea {
 @media screen and (max-width: 718px) {
 
     .contact-form {
-        height: 60vh;
-        padding-top: 15rem;
+        height: 110vh;
+        padding-top: 7rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .w-left {
+        margin-left: -4em;
     }
 }
