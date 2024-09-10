@@ -4,6 +4,30 @@ import { TiChevronLeftOutline, TiChevronRightOutline } from 'react-icons/ti';
 // const CARDS = 4;
 const MAX_VISIBILITY = 2;
 
+const jobDetails = [
+  {
+    id: 3,
+    title: 'DX Engineer',
+    company: 'Horizontal Digital',
+    years: 'Jul 2023 - Present',
+    desc: 'Engineered high-performance web solutions with ReactJS and Next.js. Leveraged Sitecore and JSS for  complex web applications and Azure DevOps for streamlined deployment and collaboration.',
+  },
+  {
+    id: 2,
+    title: 'Software Developer',
+    company: 'OpenEyes Technologies Inc.',
+    years: 'Dec 2021 - Jun 2023',
+    desc: 'Built scalable web applications with ReactJS and AngularJS, utilizing Kendo-UI and Material-UI for rich interfaces. Employed REST APIs and GitHub for efficient development and version control.',
+  },
+  {
+    id: 1,
+    title: 'Web Developer',
+    company: 'Future Link Consultants',
+    years: 'Sep 2017 - Nov 2021',
+    desc: 'Leveraged my expertise in PHP, JavaScript, React, Laravel, and WordPress to enhance and maintain web applications supporting international student visa and immigration services. My role involved collaborating with cross-functional teams to develop and implement effective digital solutions tailored to the needs of our clients and students.',
+  },
+]
+
 const Card = ({ title, content, years, desc }) => (
   <div className='TabCard'>
     <h2>{title}</h2>
@@ -47,11 +71,9 @@ const TabCarousel = () => (
     </div>
     <Carousel>
       <Card />
-      {/* <Card title='POS Based Project' content='Freelance' years='Jan 2022 - Till Date' desc="Working on project based on React for Front-end and for back-end PHP - Laravel. Github repository for code management. Azure for team management And, to deploy the websites used Azure." /> */}
-      <Card className="card-text" title='Software Developer' content='OpenEyes Technologies Inc.' years='Dec 2021 - Till Date' desc="Working on project based on React and Angular with Kendo-UI for Front-end and for back-end PHP - Laravel. Also worked on chrome extension for one of the project. Github repository for code management. And, to deploy the websites used Jenkins." />
-      <Card className="card-text" title='Software Engineer' content='Future Link Consultants' years='Sep 2020 - Nov 2021' desc="Projects based on React, Shopify and WordPress. For styling we have used Material UI. Firebase features and Stripe, used to process payments in website." />
-      <Card className="card-text" title='Jr. Software Engineer' content='CodeZeros' years='Jan 2020 - Aug 2020' desc="Projects based on ReactJs. Redux, Saga, SASS, Material UI, Bootstrap, Firebase, Stripe, Github are some of the functions used in the projects." />
-      <Card className="card-text" title='Web Designer' content='Padmavati Online Services' years='Jun 2017 - Feb 2019' desc="Planning site designs, functionality and navigation. Building wireframes & prototypes which were then turned into functional and responsive digital products. Reviewing UX with multiple teams and making necessary edits. Handling all composition, color, illustration, typography, and branding for projects. " />
+      {jobDetails.map((data, id) => 
+        <Card key={id} className="card-text" title={data.title} content={data.company} years={data.years} desc={data.desc} />
+      )}
       <Card />
     </Carousel>
   </div>

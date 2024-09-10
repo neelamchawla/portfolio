@@ -6,25 +6,21 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../../Context";
 import { motion } from "framer-motion";
-import Resume from './Resume1.pdf';
+import Resume from "./Resume.pdf";
 import { saveAs } from "file-saver";
 import "../../../../node_modules/video-react/dist/video-react.css";
-import { Player } from 'video-react';
+import { Player } from "video-react";
 import VideoResume from "../../img/Video.mp4";
 import Thumbnail from "../../img/thumbnail.png";
 
 class Popup extends React.Component {
   render() {
     return (
-      <div className='popup_video'>
-        <div className='popup_inner_video'>
+      <div className="popup_video">
+        <div className="popup_inner_video">
           <button onClick={this.props.closePopup}>X</button>
         </div>
-        <Player
-          playsInline
-          poster={Thumbnail}
-          src={VideoResume}
-        />
+        <Player playsInline poster={Thumbnail} src={VideoResume} />
       </div>
     );
   }
@@ -42,16 +38,13 @@ const Services = () => {
   };
 
   const saveFile = () => {
-    saveAs(
-      Resume,
-      "Neelam Chawla - Resume.pdf"
-    );
+    saveAs(Resume, "Neelam Chawla - Resume.pdf");
   };
 
   const [ShowPopup, setShowPopup] = useState(false);
   const togglePopup = () => {
     setShowPopup(!ShowPopup);
-  }
+  };
 
   return (
     <div className="services" id="services">
@@ -61,14 +54,35 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>Services</span>
         <span>
-          Seasoned and independent Front End Developer with 5+ years of experience in blending the art of design with the skill of programming to deliver an immersive and engaging user experience through efficient website development, proactive feature optimization, and relentless debugging. Very passionate about Emerging Tech, UI / UX design, and upskilling.<br />
+          🔥 Seasoned and independent React.js Developer with 6+ years of
+          experience in front-end development, specializing in creating
+          scalable, high-performance web applications. Expert in React.js,
+          JavaScript (ES6+), TypeScript, and API integration with a strong focus
+          on UI/UX design to deliver intuitive, user-friendly interfaces.<br/>
+          🌐 Adept at building and optimizing interactive components, enhancing
+          application performance, and ensuring seamless data flow through
+          RESTful APIs and modern frameworks. Proven ability to lead development
+          teams, manage complex projects, and implement innovative solutions
+          that align with business goals.<br/>
+          💼 Leveraging my expertise in React.js
+          and front-end technologies in a dynamic environment focused on
+          building cutting-edge digital products.
+          {/* Seasoned and independent Front End Developer with 6+ years of experience in blending the art of design with the skill of programming to deliver an immersive and engaging user experience through efficient website development, proactive feature optimization, and relentless debugging. Very passionate about Emerging Tech, UI / UX design, and upskilling. */}
+          <br />
         </span>
-        <button onClick={saveFile} className="button s-button" style={{ marginTop: "4rem" }}>
+        <button
+          onClick={saveFile}
+          className="button s-button"
+          style={{ marginTop: "4rem" }}
+        >
           Download CV
         </button>
 
         <>
-          <button className="c-h-button c-h-button--gooey" onClick={togglePopup}>
+          <button
+            className="c-h-button c-h-button--gooey"
+            onClick={togglePopup}
+          >
             {" "}
             Video CV
             <div className="c-h-button__blobs">
@@ -84,7 +98,11 @@ const Services = () => {
           >
             <defs>
               <filter id="goo">
-                <feGaussianBlur in="SourceGraphic" stdDeviation={10} result="blur" />
+                <feGaussianBlur
+                  in="SourceGraphic"
+                  stdDeviation={10}
+                  result="blur"
+                />
                 <feColorMatrix
                   in="blur"
                   mode="matrix"
@@ -96,13 +114,9 @@ const Services = () => {
             </defs>
           </svg>
 
-          {ShowPopup ?
-            <Popup
-              text='Close Me'
-              closePopup={togglePopup}
-            />
-            : null
-          }
+          {ShowPopup ? (
+            <Popup text="Close Me" closePopup={togglePopup} />
+          ) : null}
         </>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>

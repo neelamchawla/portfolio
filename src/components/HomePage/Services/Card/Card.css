@@ -48,3 +48,10 @@
     width: auto;
   }
 }
+
+@media screen and (max-width: 780px) {
+  .card {
+    width: 15rem;
+    right: 100%;
+  }
+}

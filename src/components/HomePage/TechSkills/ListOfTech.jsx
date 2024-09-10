@@ -11,7 +11,7 @@ class Filter extends React.Component {
 				{ id: 1, item: 'JavaScript / ES6 / JSX / TypeScript - (Programming Language)', display: true },
 				{ id: 2, item: 'ReactJs + Vite, Angular, Vue - (Frameworks)', display: true },
 				{ id: 3, item: 'CSS3 / SASS / Tailwind CSS / Bootstrap / Kendo UI / Material UI / Semantic UI - (Stylesheet)', display: true },
-				{ id: 4, item: 'WordPress / Shopify - (CMS)', display: true },
+				{ id: 4, item: 'Sitecore / WordPress / Shopify - (CMS)', display: true },
 				{ id: 5, item: 'HTML5 / PHP - Laravel / Restful API - (Backend)', display: true },
 				{ id: 6, item: 'MySql / PostgreSQL / MongoDB - (Database)', display: true },
 				{ id: 7, item: 'Firebase / GitHub CI/CD / Netlify / Heroku / Cloudflare / Gatsby / Jenkins- (3rd party tool for deploying websites)', display: true },

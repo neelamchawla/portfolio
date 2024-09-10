@@ -48,7 +48,7 @@
 /* right sided */
 .cards {
   position: relative;
-
+  left: 10rem;
 }
 
 .cards>* {
@@ -230,6 +230,6 @@
 
 @media screen and (max-width: 780px) {
   .services {
-    height: 95rem;
+    height: 102rem;
   }
 }
