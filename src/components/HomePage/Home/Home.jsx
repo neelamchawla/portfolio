@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from "react";
 import { themeContext } from "../../../Context";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
 import girl from "../../img/girl5.png";
@@ -105,35 +105,35 @@ const Home = () => {
         <img src={Vector2} alt="vec2" />
         <img src={girl} alt="girl" />
         {/* animation */}
-        <motion.img
+        {/* <motion.img
           initial={{ left: "-39%" }}
           whileInView={{ left: "-24%" }}
           transition={transition}
           src={crown}
           alt="transition"
-        />
-        <motion.div
+        /> */}
+        {/* <motion.div
           initial={{ top: "-4%", left: "74%" }}
           whileInView={{ left: "60%" }}
           transition={transition}
           className="floating-div"
-        >
-          <FloatinDiv
+        > */}
+          {/* <FloatinDiv
             img={Tech}
             text1="Creative" text2=" UI / UX Experience"
-          />
-        </motion.div>
-        <motion.div
+          /> */}
+        {/* </motion.div> */}
+        {/* <motion.div
           initial={{ left: "-10rem", top: "11rem" }}
           whileInView={{ left: "-5rem" }}
           transition={transition}
           className="floating-div"
-        >
-          <FloatinDiv
+        > */}
+          {/* <FloatinDiv
             img={thumbup}
             text1="Trending" text2="Web Development" text3="Technology"
-          />
-        </motion.div>
+          /> */}
+        {/* </motion.div> */}
 
         <div className="blur" style={{ background: "rgb(238 210 255)", zIndex: "0" }}></div>
         <div className="blur" style={{ background: "#C1F5FF", top: "17rem", width: "21rem", height: "11rem", left: "-9rem" }}></div>

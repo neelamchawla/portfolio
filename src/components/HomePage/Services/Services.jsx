@@ -5,7 +5,7 @@ import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../../Context";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import Resume from "./Resume.pdf";
 import { saveAs } from "file-saver";
 import "../../../../node_modules/video-react/dist/video-react.css";
@@ -58,15 +58,16 @@ const Services = () => {
           experience in front-end development, specializing in creating
           scalable, high-performance web applications. Expert in React.js,
           JavaScript (ES6+), TypeScript, and API integration with a strong focus
-          on UI/UX design to deliver intuitive, user-friendly interfaces.<br/>
+          on UI/UX design to deliver intuitive, user-friendly interfaces.
+          <br />
           🌐 Adept at building and optimizing interactive components, enhancing
           application performance, and ensuring seamless data flow through
           RESTful APIs and modern frameworks. Proven ability to lead development
           teams, manage complex projects, and implement innovative solutions
-          that align with business goals.<br/>
-          💼 Leveraging my expertise in React.js
-          and front-end technologies in a dynamic environment focused on
-          building cutting-edge digital products.
+          that align with business goals.
+          <br />
+          💼 Leveraging my expertise in React.js and front-end technologies in a
+          dynamic environment focused on building cutting-edge digital products.
           {/* Seasoned and independent Front End Developer with 6+ years of experience in blending the art of design with the skill of programming to deliver an immersive and engaging user experience through efficient website development, proactive feature optimization, and relentless debugging. Very passionate about Emerging Tech, UI / UX design, and upskilling. */}
           <br />
         </span>
@@ -123,35 +124,40 @@ const Services = () => {
       {/* right */}
       <div className="cards">
         {/* first card */}
-        <motion.div
+        {/* <motion.div
           initial={{ left: "25rem" }}
           whileInView={{ left: "14rem" }}
           transition={transition}
-        >
+        > */}
+        <div>
           <Card
             emoji={HeartEmoji}
             heading={"Design"}
             detail={"Adobe: Photoshop, Illustrator, XD, InDesign"}
           />
-        </motion.div>
+        </div>
+        {/* </motion.div> */}
         {/* second card */}
-        <motion.div
+        {/* <motion.div
           initial={{ left: "-11rem", top: "12rem" }}
           whileInView={{ left: "-4rem" }}
           transition={transition}
-        >
+        > */}
+        <div>
           <Card
             emoji={Glasses}
             heading={"Developer"}
             detail={"React, Angular, Vue, Node.js, Express.js"}
           />
-        </motion.div>
+        </div>
+        {/* </motion.div> */}
         {/* 3rd card */}
-        <motion.div
+        {/* <motion.div
           initial={{ top: "19rem", left: "25rem" }}
           whileInView={{ left: "12rem" }}
           transition={transition}
-        >
+        > */}
+        <div>
           <Card
             emoji={Humble}
             heading={"UI / UX"}
@@ -160,7 +166,8 @@ const Services = () => {
             }
             color="rgba(252, 166, 31, 0.45)"
           />
-        </motion.div>
+        </div>
+        {/* </motion.div> */}
         <div
           className="blur s-blur2"
           style={{ background: "var(--purple)" }}
