@@ -3,7 +3,7 @@ import "./Contact.css";
 import emailjs from "@emailjs/browser";
 import { themeContext } from "../../../Context";
 import Map from "../../img/map.gif";
-import Swal from 'sweetalert2';
+// import Swal from 'sweetalert2';
 
 const Contact = () => {
   const theme = useContext(themeContext);
@@ -18,16 +18,15 @@ const Contact = () => {
     e.preventDefault();
 
     if (Name === "" || Email === "" || Msg === "") {
-      Swal.fire({
-        title: "Please fill all the fields",
-        icon: "warning",
-        showConfirmButton: false,
-        showCancelButton: false,
-        timer: 3000,
-        timerProgressBar: true,
-      })
-    }
-    else if (Name !== "" || Email !== "" || Msg !== "") {
+      // Swal.fire({
+      //   title: "Please fill all the fields",
+      //   icon: "warning",
+      //   showConfirmButton: false,
+      //   showCancelButton: false,
+      //   timer: 3000,
+      //   timerProgressBar: true,
+      // });
+    } else if (Name !== "" || Email !== "" || Msg !== "") {
       emailjs
         .sendForm(
           "service_myxeune",
@@ -39,15 +38,15 @@ const Contact = () => {
           (result) => {
             // console.log(result.text);
             setDone(true);
-            Swal.fire({
-              title: "Thank you for reaching out!!",
-              html: "We will contact you shortly.",
-              icon: "success",
-              showConfirmButton: false,
-              showCancelButton: false,
-              timer: 4000,
-              timerProgressBar: true,
-            })
+            // Swal.fire({
+            //   title: "Thank you for reaching out!!",
+            //   html: "We will contact you shortly.",
+            //   icon: "success",
+            //   showConfirmButton: false,
+            //   showCancelButton: false,
+            //   timer: 4000,
+            //   timerProgressBar: true,
+            // });
             setName("");
             setEmail("");
             setMsg("");
@@ -56,13 +55,11 @@ const Contact = () => {
             // console.log(error.text);
           }
         );
-
     }
   };
 
   return (
     <div className="contact-form" id="contact">
-
       <div
         className="contact-img-res"
         style={{
@@ -73,13 +70,16 @@ const Contact = () => {
           opacity: "0.3",
           marginLeft: "-9%",
           marginTop: "-3%",
-        }}></div>
+        }}
+      ></div>
 
       {/* left side */}
       <div className="w-left">
         <div className="c-awesome">
           {/* darkMode */}
-          <span style={{ color: darkMode ? 'white' : '' }}>Get in <span>Touch</span></span>
+          <span style={{ color: darkMode ? "white" : "" }}>
+            Get in <span>Touch</span>
+          </span>
           <div
             className="blur s-blur1"
             style={{ background: "#ABF1FF94" }}
@@ -89,9 +89,26 @@ const Contact = () => {
       {/* right side form */}
       <div className="c-right">
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="from_name" onChange={setName} className="user" placeholder="Name" />
-          <input type="email" name="user_email" onChange={setEmail} className="user" placeholder="Email" />
-          <textarea name="message" className="user" onChange={setMsg} placeholder="Message" />
+          <input
+            type="text"
+            name="from_name"
+            onChange={setName}
+            className="user"
+            placeholder="Name"
+          />
+          <input
+            type="email"
+            name="user_email"
+            onChange={setEmail}
+            className="user"
+            placeholder="Email"
+          />
+          <textarea
+            name="message"
+            className="user"
+            onChange={setMsg}
+            placeholder="Message"
+          />
           <input type="submit" value="Send" className="button c-button" />
           <div
             className="blur c-blur1"
